@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TiliaFile>
+<Version>
+<Application>Tilia</Application>
+<MajorVersion>1</MajorVersion>
+<MinorVersion>7</MinorVersion>
+<Release>15</Release>
+</Version>
+<Contacts Count="5">
+<Contact ID="1">
+<FullContactName>Baker, Aura</FullContactName>
+<ShortContactName>Baker</ShortContactName>
+<FamilyName>Baker</FamilyName>
+<GivenNames>Aura</GivenNames>
+</Contact>
+<Contact ID="2">
+<FullContactName>Baker, Wayne</FullContactName>
+<ShortContactName>Baker</ShortContactName>
+<FamilyName>Baker</FamilyName>
+<GivenNames>Wayne</GivenNames>
+</Contact>
+<Contact ID="3">
+<FullContactName>Geisler, J.H.</FullContactName>
+<ShortContactName>Geisler, J.H.</ShortContactName>
+<FamilyName>Geisler</FamilyName>
+<GivenNames>J.H.</GivenNames>
+<LeadingInitials>J.H.</LeadingInitials>
+<Title>Prof.</Title>
+<Email>jgeisler@nyit.edu</Email>
+<Address Count="5">
+<AddressLine>Department of Anatomy</AddressLine>
+<AddressLine>New York College of Osteopathic Medicine</AddressLine>
+<AddressLine>New York Institute of Technology</AddressLine>
+<AddressLine>Northern Boulevard</AddressLine>
+<AddressLine>Old Westbury, NY 11568</AddressLine>
+</Address>
+<Country>United States</Country>
+</Contact>
+<Contact ID="4">
+<FullContactName>Gibson, M.L.</FullContactName>
+<ShortContactName>Gibson, M.L.</ShortContactName>
+<FamilyName>Gibson</FamilyName>
+<GivenNames>M.L.</GivenNames>
+<LeadingInitials>M.L.</LeadingInitials>
+<Email>gibsonml@goldmail.etsu.edu</Email>
+<Address Count="3">
+<AddressLine>East Tennessee State University</AddressLine>
+<AddressLine>P.O. Box 70357</AddressLine>
+<AddressLine>Johnson City, TN 37614</AddressLine>
+</Address>
+<Country>United States</Country>
+</Contact>
+<Contact ID="5">
+<FullContactName>Minjin, B.</FullContactName>
+<ShortContactName>Minjin, B.</ShortContactName>
+<FamilyName>Minjin</FamilyName>
+<GivenNames>B.</GivenNames>
+<LeadingInitials>B.</LeadingInitials>
+</Contact>
+</Contacts>
+<SpreadSheetBook>
+<SpreadSheetOptions>
+<FontName>MS Sans Serif</FontName>
+<FontSize>8</FontSize>
+<DefaultColWidth>64</DefaultColWidth>
+<DefaultRowHeight>18</DefaultRowHeight>
+<PercentDecimalPlaces>1</PercentDecimalPlaces>
+<CheckDupCodes>True</CheckDupCodes>
+<CaseSensitiveCodes>False</CaseSensitiveCodes>
+<CodesVisible>True</CodesVisible>
+<ElementsVisible>True</ElementsVisible>
+<UnitsVisible>True</UnitsVisible>
+<ContextsVisible>True</ContextsVisible>
+<TaphonomyVisible>True</TaphonomyVisible>
+<GroupsVisible>True</GroupsVisible>
+<ElementCategory>Mammal</ElementCategory>
+<UnitsCategory>Vertebrate fauna</UnitsCategory>
+<ContextCategory>Vertebrate fauna</ContextCategory>
+<TaphonomyCategory>Vertebrate fauna</TaphonomyCategory>
+</SpreadSheetOptions>
+<SpreadSheet page="0" name="Data">
+<Col ID="1" Width="64">
+<cell row="3">
+<text>#Chron1</text>
+</cell>
+<cell row="4">
+<text>#Chron2</text>
+</cell>
+<cell row="5">
+<text>#thick</text>
+</cell>
+<cell row="6">
+<text>#DataAnal</text>
+</cell>
+<cell row="7">
+<text>Aur.ba</text>
+</cell>
+</Col>
+<Col ID="2" Width="180">
+<cell row="5">
+<text>Thickness</text>
+</cell>
+<cell row="7">
+<text>Auroracetus bakerae</text>
+</cell>
+</Col>
+<Col ID="3" Width="64">
+<cell row="7">
+<text>skull, fragment</text>
+</cell>
+</Col>
+<Col ID="4" Width="64">
+<cell row="7">
+<text>NISP</text>
+</cell>
+</Col>
+<Col ID="7" Width="64">
+<cell row="7">
+<text>CETA</text>
+</cell>
+</Col>
+<Col ID="8" Width="64">
+<cell row="2">
+<text>Assemblage</text>
+</cell>
+<cell row="7">
+<value>2</value>
+</cell>
+</Col>
+</SpreadSheet>
+</SpreadSheetBook>
+<Publications Count="1">
+<Publication ID="1">
+<PublicationType>Journal</PublicationType>
+<PublicationYear>2009</PublicationYear>
+<Citation>Gibson, M.L., and J.H. Geisler. 2009. A New Pliocene Dolphin (Cetacea: Pontoporiidae), from the Lee Creek Mine, North Carolina. Journal of Vertebrate Paleontology 29(3):966-971.</Citation>
+<Authors Count="2">
+<Author>
+<Contact ID="4"/>
+<LastName>Gibson</LastName>
+<Initials>M.L.</Initials>
+</Author>
+<Author>
+<Contact ID="3"/>
+<LastName>Geisler</LastName>
+<Initials>J.H.</Initials>
+</Author>
+</Authors>
+<Title>A New Pliocene Dolphin (Cetacea: Pontoporiidae), from the Lee Creek Mine, North Carolina</Title>
+<Journal>Journal of Vertebrate Paleontology</Journal>
+<Volume>29</Volume>
+<Issue>3</Issue>
+<Pages>966-971</Pages>
+</Publication>
+</Publications>
+<Site>
+<SiteName>Lee Creek Mine</SiteName>
+<LongEast>-76.7829666666667</LongEast>
+<LongWest>-76.7829666666667</LongWest>
+<LatNorth>35.3475166666667</LatNorth>
+<LatSouth>35.3475166666667</LatSouth>
+<Country>United States</Country>
+<State>North Carolina</State>
+<SiteDescription>Phosphate mine in coastal North Carolina</SiteDescription>
+</Site>
+<CollectionUnit>
+<CollectionType>Composite</CollectionType>
+<Notes>Specimen found in unknown member of Yorktown Formation, based on sediment found on specimen.</Notes>
+<GPSLat>35.3475166666667</GPSLat>
+<GPSLong>-76.7829666666667</GPSLong>
+<Collectors Count="2">
+<Contact ID="1"/>
+<Contact ID="2"/>
+</Collectors>
+</CollectionUnit>
+<Dataset>
+<DatasetType>Vertebrate fauna</DatasetType>
+<IsSSamp>False</IsSSamp>
+<Investigators Count="2">
+<Contact ID="3"/>
+<Contact ID="4"/>
+</Investigators>
+<Publications Count="1">
+<Publication ID="1"/>
+</Publications>
+</Dataset>
+</TiliaFile>

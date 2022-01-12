@@ -1,0 +1,1131 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="&amp;">
+    <param name="Name" value="Font Formatting">
+    <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="&lt;">
+    <param name="Name" value="Font Formatting">
+    <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="&gt;">
+    <param name="Name" value="Font Formatting">
+    <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Actual units">
+    <param name="Name" value="Actual Units">
+    <param name="Local" value="TGView\IDH_Actual_Units.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Ampersand">
+    <param name="Name" value="Font Formatting">
+    <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Bitmaps">
+    <param name="Name" value="Vectors and Bitmaps">
+    <param name="Local" value="TGView\IDH_Vectors_and_Bitmaps.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Boxes">
+    <param name="Name" value="Boxes">
+    <param name="Local" value="TGView\IDH_Boxes.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Changing the order of graphs">
+    <param name="Name" value="Changing Graph Order">
+    <param name="Local" value="TGView\IDH_Variables_Order.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Chron variables">
+    <param name="Name" value="Special Variables">
+    <param name="Local" value="TGView\IDH_Special_Variables.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Cluster Analysis">
+    <param name="Name" value="Description">
+    <param name="Local" value="TGView\IDH_Cluster_Analysis_Description.htm">
+    <param name="Name" value="Cluster Analysis Dialog Box">
+    <param name="Local" value="TGView\IDH_Cluster_Analysis_Dialog_Box.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Description">
+      <param name="Name" value="Cluster Analysis">
+      <param name="Local" value="TGView\IDH_Cluster_Analysis_Description.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog Box">
+      <param name="Name" value="Cluster Analysis Dialog Box">
+      <param name="Local" value="TGView\IDH_Cluster_Analysis_Dialog_Box.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Run CONISS">
+        <param name="Name" value="Cluster Analysis Run CONISS">
+        <param name="Local" value="TGView\IDH_Cluster_Analysis_Run_CONISS.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Open dgx file">
+        <param name="Name" value="Cluster Analysis Open dgx file">
+        <param name="Local" value="TGView\IDH_Cluster_Analysis_Open_dgx_file.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Dendrogram scale">
+        <param name="Name" value="Cluster Analysis Dendrogram Scale">
+        <param name="Local" value="TGView\IDH_Cluster_Analysis_Dendrogram_Scale.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Dendrogram title">
+        <param name="Name" value="Cluster Analysis Title">
+        <param name="Local" value="TGView\IDH_Cluster_Analysis_Title.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Dendrogram width">
+        <param name="Name" value="Cluster Analysis Dendrogram Width">
+        <param name="Local" value="TGView\IDH_Cluster_Analysis_Dendrogram_Width.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Plot dendrogram">
+        <param name="Name" value="Cluster Analysis Plot Dendrogram">
+        <param name="Local" value="TGView\IDH_Cluster_Analysis_Plot_Dendrogram.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tic marks">
+        <param name="Name" value="Labels">
+        <param name="Local" value="TGView\IDH_Cluster_Analysis_Tic_Mark_Labels.htm">
+        <param name="Name" value="Lengths">
+        <param name="Local" value="TGView\IDH_Cluster_Analysis_Tic_Mark_Lengths.htm">
+        <param name="Name" value="Step size">
+        <param name="Local" value="TGView\IDH_Cluster_Analysis_Tic_Mark_Step_Size.htm">
+      </object>
+      </ul>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Colors">
+    <param name="Name" value="Color Dialog Box">
+    <param name="Local" value="TGView\IDH_Color_Selection_Box.htm">
+    <param name="Name" value="Colors">
+    <param name="Local" value="TGView\IDH_Colors_Dialog_Box.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog box">
+      <param name="Name" value="Colors">
+      <param name="Local" value="TGView\IDH_Colors_Dialog_Box.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Combo box">
+      <param name="Name" value="Color Combo Box">
+      <param name="Local" value="TGView\IDH_Color_List_Box.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Selection box">
+      <param name="Name" value="Color Selection Box">
+      <param name="Local" value="TGView\IDH_Color_Selection_Box.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="CONISS">
+    <param name="Name" value="Cluster Analysis Run CONISS">
+    <param name="Local" value="TGView\IDH_Cluster_Analysis_Run_CONISS.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Dates">
+    <param name="Name" value="Dates">
+    <param name="Local" value="TGView\IDH_Dates.htm">
+    <param name="Name" value="Dates Dialog Box">
+    <param name="Local" value="TGView\IDH_Dates_Dialog_Box.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Description">
+      <param name="Name" value="Dates">
+      <param name="Local" value="TGView\IDH_Dates.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog box">
+      <param name="Name" value="Dates Dialog Box">
+      <param name="Local" value="TGView\IDH_Dates_Dialog_Box.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Dendrogram">
+    <param name="Name" value="Cluster Analysis Dialog Box">
+    <param name="Local" value="TGView\IDH_Cluster_Analysis_Dialog_Box.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Depth bars">
+    <param name="Name" value="Depth bars">
+    <param name="Local" value="TGView\IDH_Depth_bars.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Depth variables">
+    <param name="Name" value="Special Variables">
+    <param name="Local" value="TGView\IDH_Special_Variables.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Edit variable names">
+    <param name="Name" value="Edit Graph Names">
+    <param name="Local" value="TGView\IDH_Variables_Name_Edit.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Entity references">
+    <param name="Name" value="Font Formatting">
+    <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Exaggeration">
+    <param name="Name" value="Silhouette Graph Exaggeration">
+    <param name="Local" value="TGView\IDH_Silhouette_Exaggeration.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Fonts">
+    <param name="Name" value="Font Dialog Box">
+    <param name="Local" value="TGView\IDH_Font_Dialog.htm">
+    <param name="Name" value="Font Formatting">
+    <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog box">
+      <param name="Name" value="Font Dialog Box">
+      <param name="Local" value="TGView\IDH_Font_Dialog.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Formatting">
+      <param name="Name" value="Font Formatting">
+      <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Footer">
+    <param name="Name" value="Header, Footer, and Random Text">
+    <param name="Local" value="TGView\IDH_Text_Example.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Format graph names">
+    <param name="Name" value="Format Graph Names">
+    <param name="Local" value="TGView\IDH_Variables_Names_Format.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Frame">
+    <param name="Name" value="Frame Description">
+    <param name="Local" value="TGView\IDH_Frame_Description.htm">
+    <param name="Name" value="Frame Dialog Box">
+    <param name="Local" value="TGView\IDH_Frame_Dialog_Box.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Description">
+      <param name="Name" value="Frame Description">
+      <param name="Local" value="TGView\IDH_Frame_Description.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Frame dialog box">
+      <param name="Name" value="Frame Dialog Box">
+      <param name="Local" value="TGView\IDH_Frame_Dialog_Box.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Graph style">
+    <param name="Name" value="Graph Style Dialog Box">
+    <param name="Local" value="TGView\IDH_Graph_Style_Dialog_Box.htm">
+    <param name="Name" value="Histogram Graph">
+    <param name="Local" value="TGView\IDH_Histogram.htm">
+    <param name="Name" value="Line Graph">
+    <param name="Local" value="TGView\IDH_Line_Graph.htm">
+    <param name="Name" value="Numbers Graph">
+    <param name="Local" value="TGView\IDH_Numbers.htm">
+    <param name="Name" value="Presence Graph">
+    <param name="Local" value="TGView\IDH_Presence.htm">
+    <param name="Name" value="Silhouette Graph">
+    <param name="Local" value="TGView\IDH_Silhouette.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog box">
+      <param name="Name" value="Graph Style Dialog Box">
+      <param name="Local" value="TGView\IDH_Graph_Style_Dialog_Box.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Histogram graph">
+      <param name="Name" value="Histogram Graph">
+      <param name="Local" value="TGView\IDH_Histogram.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Color">
+        <param name="Name" value="Histogram Graph#HistogramColor">
+        <param name="Local" value="TGView\IDH_Histogram.htm#HistogramColor">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Style">
+        <param name="Name" value="Histogram Style">
+        <param name="Local" value="TGView\IDH_Histogram_Style.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vertical axis">
+        <param name="Name" value="Histogram Vertical Axis">
+        <param name="Local" value="TGView\IDH_Histogram_Vertical_Axis.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Line graph">
+      <param name="Name" value="Line Graph">
+      <param name="Local" value="TGView\IDH_Line_Graph.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Color">
+        <param name="Name" value="Line Graph#LineGraphColor">
+        <param name="Local" value="TGView\IDH_Line_Graph.htm#LineGraphColor">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Line width">
+        <param name="Name" value="Line Graph#LineGraphLineWidth">
+        <param name="Local" value="TGView\IDH_Line_Graph.htm#LineGraphLineWidth">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Show symbols for zero values">
+        <param name="Name" value="Line Graph Zero Symbols">
+        <param name="Local" value="TGView\IDH_Line_Graph_Zero_Symbols.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Symbol style">
+        <param name="Name" value="Line Graph Symbols">
+        <param name="Local" value="TGView\IDH_Line_Graph_Symbol.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Symbol size">
+        <param name="Name" value="Line Graph Symbol Size">
+        <param name="Local" value="TGView\IDH_Line_Graph_Symbol_Size.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Symbol labels">
+        <param name="Name" value="Line Graph Symbol Labels">
+        <param name="Local" value="TGView\IDH_Line_Graph_Symbol_Labels.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Numbers graph">
+      <param name="Name" value="Numbers Graph">
+      <param name="Local" value="TGView\IDH_Numbers.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Font">
+        <param name="Name" value="Numbers Graph#Font">
+        <param name="Local" value="TGView\IDH_Numbers.htm#Font">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Number of decimal points">
+        <param name="Name" value="Numbers Graph#Number_of_Decimal_Points">
+        <param name="Local" value="TGView\IDH_Numbers.htm#Number_of_Decimal_Points">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Show zero values">
+        <param name="Name" value="Numbers Graph#Show_Zero_Values">
+        <param name="Local" value="TGView\IDH_Numbers.htm#Show_Zero_Values">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Presence graph">
+      <param name="Name" value="Presence Graph">
+      <param name="Local" value="TGView\IDH_Presence.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Color">
+        <param name="Name" value="Presence Graph#Color">
+        <param name="Local" value="TGView\IDH_Presence.htm#Color">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Plot symbol in label">
+        <param name="Name" value="Presence Graph Label">
+        <param name="Local" value="TGView\IDH_Presence_Graph_Label.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Position of symbol on X-axis">
+        <param name="Name" value="Presence Graph Position">
+        <param name="Local" value="TGView\IDH_Presence_Graph_Position.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Symbol size">
+        <param name="Name" value="Presence Graph#Symbol_Size">
+        <param name="Local" value="TGView\IDH_Presence.htm#Symbol_Size">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Silhouette graph">
+      <param name="Name" value="Silhouette Graph">
+      <param name="Local" value="TGView\IDH_Silhouette.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Depth bars">
+        <param name="Name" value="Depth Bars">
+        <param name="Local" value="TGView\IDH_Silhouette_Depth_Bars.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Dotted vertical axis">
+        <param name="Name" value="Dotted Vertical Axis">
+        <param name="Local" value="TGView\IDH_Silhouette_Dotted_Vertical_Axis.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Exaggeration">
+        <param name="Name" value="Silhouette Graph Exaggeration">
+        <param name="Local" value="TGView\IDH_Silhouette_Exaggeration.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Fill style">
+        <param name="Name" value="Silhouette Graph Fill Style">
+        <param name="Local" value="TGView\IDH_Silhouette_Fill_Style.htm">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Depth bars">
+          <param name="Name" value="Silhouette Fill Depth Bars">
+          <param name="Local" value="TGView\IDH_Silhouette_Fill_Depth_Bars.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Hollow">
+          <param name="Name" value="Silhouette Fill Hollow">
+          <param name="Local" value="TGView\IDH_Silhouette_Fill_Hollow.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Pattern">
+          <param name="Name" value="Silhouette Fill Pattern">
+          <param name="Local" value="TGView\IDH_Silhouette_Fill_Pattern.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Solid">
+          <param name="Name" value="Silhouette Fill Solid">
+          <param name="Local" value="TGView\IDH_Silhouette_Fill_Solid.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Line width">
+        <param name="Name" value="Silhouette Graph#Silhouette_Line_Width">
+        <param name="Local" value="TGView\IDH_Silhouette.htm#Silhouette_Line_Width">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Colors">
+        <param name="Name" value="Silhouette Graph#Silhouette_Colors">
+        <param name="Local" value="TGView\IDH_Silhouette.htm#Silhouette_Colors">
+      </object>
+      </ul>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Greater than symbol">
+    <param name="Name" value="Font Formatting">
+    <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Greek letters">
+    <param name="Name" value="Greek Letters Dialog Box">
+    <param name="Local" value="TGView\IDH_Greek_Letters.htm">
+    <param name="Name" value="Greek Letter Table">
+    <param name="Local" value="TGView\IDH_Greek_Letter_Table.htm">
+    <param name="Name" value="Font Formatting">
+    <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog box">
+      <param name="Name" value="Greek Letters Dialog Box">
+      <param name="Local" value="TGView\IDH_Greek_Letters.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Font formatting">
+      <param name="Name" value="Backslash Toggles">
+      <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Greek letter table">
+      <param name="Name" value="Greek Letter Table">
+      <param name="Local" value="TGView\IDH_Greek_Letter_Table.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Groups">
+    <param name="Name" value="Groups Description">
+    <param name="Local" value="TGView\IDH_Groups.htm">
+    <param name="Name" value="Groups Dialog Box">
+    <param name="Local" value="TGView\IDH_Groups_Dialog.htm">
+    <param name="Name" value="Group Options">
+    <param name="Local" value="TGView\IDH_Group_Options.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Description">
+      <param name="Name" value="Groups">
+      <param name="Local" value="TGView\IDH_Groups.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog box">
+      <param name="Name" value="Groups Dialog Box">
+      <param name="Local" value="TGView\IDH_Groups_Dialog.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Options">
+      <param name="Name" value="Group Options">
+      <param name="Local" value="TGView\IDH_Group_Options.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Header">
+    <param name="Name" value="Header, Footer, and Random Text">
+    <param name="Local" value="TGView\IDH_Text_Example.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Interactive editing">
+    <param name="Name" value="Interactive Editing">
+    <param name="Local" value="TGView\IDH_Interactive_Editing.htm">
+    <param name="Name" value="Interactive Text">
+    <param name="Local" value="TGView\IDH_Text_Interactive.htm">
+    <param name="Name" value="Interactively Editing Graphs">
+    <param name="Local" value="TGView\IDH_Interactive_Graph_Edit.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Graphs">
+      <param name="Name" value="Interactively Editing Graphs">
+      <param name="Local" value="TGView\IDH_Interactive_Graph_Edit.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Text">
+      <param name="Name" value="Interactive Text">
+      <param name="Local" value="TGView\IDH_Text_Interactive.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Italics">
+    <param name="Name" value="Italics Dialog Box">
+    <param name="Local" value="TGView\IDH_Italics_Dialog_Box.htm">
+    <param name="Name" value="Font Formatting">
+    <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Font formatting">
+      <param name="Name" value="Font Formatting">
+      <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Italicize graph names">
+      <param name="Name" value="Italics Dialog Box">
+      <param name="Local" value="TGView\IDH_Italics_Dialog_Box.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Less than symbol">
+    <param name="Name" value="Font Formatting">
+    <param name="Local" value="TGView\IDH_Font_Formatting.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Line width">
+    <param name="Name" value="Line Width">
+    <param name="Local" value="TGView\IDH_Line_Width.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Lithology">
+    <param name="Name" value="Lithology Description">
+    <param name="Local" value="TGView\IDH_Lithology_Description.htm">
+    <param name="Name" value="Lithology Dialog Box">
+    <param name="Local" value="TGView\IDH_Lithology_Dialog_Box.htm">
+    <param name="Name" value="Lithology Options">
+    <param name="Local" value="TGView\IDH_Lithology_Options.htm">
+    <param name="Name" value="Lithology Design">
+    <param name="Local" value="TGView\IDH_Lithology_Design.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Description">
+      <param name="Name" value="Lithology Description">
+      <param name="Local" value="TGView\IDH_Lithology_Description.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog box">
+      <param name="Name" value="Lithology Dialog Box">
+      <param name="Local" value="TGView\IDH_Lithology_Dialog_Box.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Options">
+      <param name="Name" value="Lithology Options">
+      <param name="Local" value="TGView\IDH_Lithology_Options.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Design">
+      <param name="Name" value="Lithology Design">
+      <param name="Local" value="TGView\IDH_Lithology_Design.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Margins">
+    <param name="Name" value="Frame Description">
+    <param name="Local" value="TGView\IDH_Frame_Description.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Moving graphs">
+    <param name="Name" value="Interactively Editing Graphs">
+    <param name="Local" value="TGView\IDH_Interactive_Graph_Edit.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Natural units">
+    <param name="Name" value="Natural Units">
+    <param name="Local" value="TGView\IDH_Natural_Units.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Overlay variables">
+    <param name="Name" value="Variables Overlay">
+    <param name="Local" value="TGView\IDH_Variables_Overlay.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Points">
+    <param name="Name" value="Points">
+    <param name="Local" value="TGView\IDH_Points.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Print options">
+    <param name="Name" value="Print Options">
+    <param name="Local" value="TGView\IDH_Print_Options.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Printing">
+    <param name="Name" value="Print Options">
+    <param name="Local" value="TGView\IDH_Print_Options.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Random text">
+    <param name="Name" value="Header, Footer, and Random Text">
+    <param name="Local" value="TGView\IDH_Text_Example.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Rare types">
+    <param name="Name" value="Rare Types Description">
+    <param name="Local" value="TGView\IDH_Rare_Types_Description.htm">
+    <param name="Name" value="Rare Types Dialog Box">
+    <param name="Local" value="TGView\IDH_Rare_Types_Dialog_Box.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Description">
+      <param name="Name" value="Rare Types Description">
+      <param name="Local" value="TGView\IDH_Rare_Types_Description.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Rare types dialog box">
+      <param name="Name" value="Rare Types Dialog Box">
+      <param name="Local" value="TGView\IDH_Rare_Types_Dialog_Box.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Scaling">
+    <param name="Name" value="Y-axis Length">
+    <param name="Local" value="TGView\IDH_Yaxis_Length.htm">
+    <param name="Name" value="X-axis Length">
+    <param name="Local" value="TGView\IDH_Xaxis_Length.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="X-axis">
+      <param name="Name" value="X-axis Length">
+      <param name="Local" value="TGView\IDH_Xaxis_Length.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Y-axis">
+      <param name="Name" value="Y-axis Length">
+      <param name="Local" value="TGView\IDH_Yaxis_Length.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Select pattern dialog box">
+    <param name="Name" value="Select pattern dialog box">
+    <param name="Local" value="TGView\IDH_Pattern_Dialog_Box.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Select variables dialog box">
+    <param name="Name" value="Select Variables">
+    <param name="Local" value="TGView\IDH_Select_Variables.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Skip variables">
+    <param name="Name" value="Variables Skip">
+    <param name="Local" value="TGView\IDH_Variables_Skip.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Stack variables">
+    <param name="Name" value="Variables Stack">
+    <param name="Local" value="TGView\IDH_Variables_Stack.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Space between graphs">
+    <param name="Name" value="Space Between Graphs">
+    <param name="Local" value="TGView\IDH_Xaxis_End_Space.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Special variables">
+    <param name="Name" value="Special Variables">
+    <param name="Local" value="TGView\IDH_Special_Variables.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Symbol labels">
+    <param name="Name" value="Line Graph Symbol Labels">
+    <param name="Local" value="TGView\IDH_Line_Graph_Symbol_Labels.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Symbol size">
+    <param name="Name" value="Line Graph Symbol Size">
+    <param name="Local" value="TGView\IDH_Line_Graph_Symbol_Size.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Symbols">
+    <param name="Name" value="Line Graph Symbols">
+    <param name="Local" value="TGView\IDH_Line_Graph_Symbol.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Text">
+    <param name="Name" value="Header &amp; Footer">
+    <param name="Local" value="TGView\IDH_Text_Header_and_Footer.htm">
+    <param name="Name" value="Interactive Text">
+    <param name="Local" value="TGView\IDH_Text_Interactive.htm">
+    <param name="Name" value="Random Text">
+    <param name="Local" value="TGView\IDH_Text_Random.htm">
+    <param name="Name" value="Text Dialog Box">
+    <param name="Local" value="TGView\IDH_Text.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Header &amp; footer">
+      <param name="Name" value="Header &amp; Footer">
+      <param name="Local" value="TGView\IDH_Text_Header_and_Footer.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Interactive text">
+      <param name="Name" value="Interactive Text">
+      <param name="Local" value="TGView\IDH_Text_Interactive.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Random text">
+      <param name="Name" value="Random Text">
+      <param name="Local" value="TGView\IDH_Text_Random.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Thickness variables">
+    <param name="Name" value="Special Variables">
+    <param name="Local" value="TGView\IDH_Special_Variables.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Units of measurement">
+    <param name="Name" value="Units of Measurment">
+    <param name="Local" value="TGView\IDH_Units_of_Measurement.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Variable name">
+    <param name="Name" value="Graph Name">
+    <param name="Local" value="TGView\IDH_Graph_Name.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Variables">
+    <param name="Name" value="Changing Graph Order">
+    <param name="Local" value="TGView\IDH_Variables_Order.htm">
+    <param name="Name" value="Edit Graph Names">
+    <param name="Local" value="TGView\IDH_Variables_Name_Edit.htm">
+    <param name="Name" value="Format Graph Names">
+    <param name="Local" value="TGView\IDH_Variables_Names_Format.htm">
+    <param name="Name" value="Graph Order Dialog Box">
+    <param name="Local" value="TGView\IDH_Variables_Dialog_Box.htm">
+    <param name="Name" value="Overlay Graphs">
+    <param name="Local" value="TGView\IDH_Variables_Overlay.htm">
+    <param name="Name" value="Skip Graphs">
+    <param name="Local" value="TGView\IDH_Variables_Skip.htm">
+    <param name="Name" value="Stack Graphs">
+    <param name="Local" value="TGView\IDH_Variables_Stack.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog box">
+      <param name="Name" value="Variables Dialog Box">
+      <param name="Local" value="TGView\IDH_Variables_Dialog_Box.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Changing variable order">
+      <param name="Name" value="Changing Graph Order">
+      <param name="Local" value="TGView\IDH_Variables_Order.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Overlay variables">
+      <param name="Name" value="Overlay Graphs">
+      <param name="Local" value="TGView\IDH_Variables_Overlay.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Stack variables">
+      <param name="Name" value="Stack Graphs">
+      <param name="Local" value="TGView\IDH_Variables_Stack.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Skip variables">
+      <param name="Name" value="Skip Graphs">
+      <param name="Local" value="TGView\IDH_Variables_Skip.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Edit variable names">
+      <param name="Name" value="Edit Graph Names">
+      <param name="Local" value="TGView\IDH_Variables_Name_Edit.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Format variable names">
+      <param name="Name" value="Format Graph Names">
+      <param name="Local" value="TGView\IDH_Variables_Names_Format.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Special variables">
+      <param name="Name" value="Special Variables">
+      <param name="Local" value="TGView\IDH_Special_Variables.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Vectors and Bitmaps">
+    <param name="Name" value="Vectors and Bitmaps">
+    <param name="Local" value="TGView\IDH_Vectors_and_Bitmaps.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Virtual units">
+    <param name="Name" value="Virtual Units">
+    <param name="Local" value="TGView\IDH_Virtual_Units.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Windows versions">
+    <param name="Name" value="Windows Versions">
+    <param name="Local" value="TGView\IDH_Windows_Versions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="X-axes">
+    <param name="Name" value="Printing Truncated Values on the X-axis">
+    <param name="Local" value="TGView\IDH_Xaxis_Truncate_Print.htm">
+    <param name="Name" value="Space Between Graphs">
+    <param name="Local" value="TGView\IDH_Xaxis_End_Space.htm">
+    <param name="Name" value="Truncate X-axis">
+    <param name="Local" value="TGView\IDH_Xaxis_Truncate.htm">
+    <param name="Name" value="Truncate X-axis">
+    <param name="Local" value="TGView\IDH_Xaxis_Truncate_Where.htm">
+    <param name="Name" value="X-axes dialog box">
+    <param name="Local" value="TGView\IDH_Xaxis_Dialog_Box.htm">
+    <param name="Name" value="X-axis Grid Lines">
+    <param name="Local" value="TGView\IDH_Xaxis_Grid_Lines.htm">
+    <param name="Name" value="X-axis Label">
+    <param name="Local" value="TGView\IDH_Xaxis_Label.htm">
+    <param name="Name" value="X-axis Length">
+    <param name="Local" value="TGView\IDH_Xaxis_Length.htm">
+    <param name="Name" value="X-axis Maximum Limit">
+    <param name="Local" value="TGView\IDH_Xaxis_Maximum_Limit.htm">
+    <param name="Name" value="X-axis Minimum Limit">
+    <param name="Local" value="TGView\IDH_Xaxis_Minimum_Limit.htm">
+    <param name="Name" value="X-axis Name">
+    <param name="Local" value="TGView\IDH_Xaxis_Name.htm">
+    <param name="Name" value="X-axis Options">
+    <param name="Local" value="TGView\IDH_Xaxis_Axis_Tab_Sheet.htm">
+    <param name="Name" value="X-axis Tic Mark Intervals">
+    <param name="Local" value="TGView\IDH_Xaxis_Tic_Mark_Step_Size.htm">
+    <param name="Name" value="X-axis Tic Mark Labels">
+    <param name="Local" value="TGView\IDH_Xaxis_Tic_Mark_Labels.htm">
+    <param name="Name" value="X-axis Tic Mark Lengths">
+    <param name="Local" value="TGView\IDH_Xaxis_Tic_Mark_Lengths.htm">
+    <param name="Name" value="X-axis Tic Marks">
+    <param name="Local" value="TGView\IDH_Xaxis_Tic_Marks.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Description">
+      <param name="Name" value="X-axes Description">
+      <param name="Local" value="TGView\IDH_Xaxis_Description.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog box">
+      <param name="Name" value="X-axes dialog box">
+      <param name="Local" value="TGView\IDH_Xaxis_Dialog_Box.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Name options">
+      <param name="Name" value="X-axis Name">
+      <param name="Local" value="TGView\IDH_Xaxis_Name.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Axis options">
+      <param name="Name" value="Space Between Graphs">
+      <param name="Local" value="TGView\IDH_Xaxis_End_Space.htm">
+      <param name="Name" value="X-axis Label">
+      <param name="Local" value="TGView\IDH_Xaxis_Label.htm">
+      <param name="Name" value="X-axis Length">
+      <param name="Local" value="TGView\IDH_Xaxis_Length.htm">
+      <param name="Name" value="X-axis Maximum Limit">
+      <param name="Local" value="TGView\IDH_Xaxis_Maximum_Limit.htm">
+      <param name="Name" value="X-axis Minimum Limit">
+      <param name="Local" value="TGView\IDH_Xaxis_Minimum_Limit.htm">
+      <param name="Name" value="X-axis Options">
+      <param name="Local" value="TGView\IDH_Xaxis_Axis_Tab_Sheet.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Color">
+        <param name="Name" value="X-axis Options#X_axis_Color">
+        <param name="Local" value="TGView\IDH_Xaxis_Axis_Tab_Sheet.htm#X_axis_Color">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Label">
+        <param name="Name" value="X-axis Label">
+        <param name="Local" value="TGView\IDH_Xaxis_Label.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Length">
+        <param name="Name" value="X-axis Length">
+        <param name="Local" value="TGView\IDH_Xaxis_Length.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Line width">
+        <param name="Name" value="X-axis Options#X_axis_LineWidth">
+        <param name="Local" value="TGView\IDH_Xaxis_Axis_Tab_Sheet.htm#X_axis_LineWidth">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Maximum limit">
+        <param name="Name" value="X-axis Maximum Limit">
+        <param name="Local" value="TGView\IDH_Xaxis_Maximum_Limit.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Minimum limit">
+        <param name="Name" value="X-axis Minimum Limit">
+        <param name="Local" value="TGView\IDH_Xaxis_Minimum_Limit.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Space between graphs">
+        <param name="Name" value="Space Between Graphs">
+        <param name="Local" value="TGView\IDH_Xaxis_End_Space.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Tic marks">
+      <param name="Name" value="X-axis Tic Marks">
+      <param name="Local" value="TGView\IDH_Xaxis_Tic_Marks.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Grid lines">
+        <param name="Name" value="X-axis Grid Lines">
+        <param name="Local" value="TGView\IDH_Xaxis_Grid_Lines.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Labels">
+        <param name="Name" value="X-axis Tic Mark Labels">
+        <param name="Local" value="TGView\IDH_Xaxis_Tic_Mark_Labels.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Lengths">
+        <param name="Name" value="X-axis Tic Mark Lengths">
+        <param name="Local" value="TGView\IDH_Xaxis_Tic_Mark_Lengths.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Step size">
+        <param name="Name" value="X-axis Tic Mark Intervals">
+        <param name="Local" value="TGView\IDH_Xaxis_Tic_Mark_Step_Size.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Truncating graphs">
+      <param name="Name" value="Truncate X-axis">
+      <param name="Local" value="TGView\IDH_Xaxis_Truncate.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Printing truncated values on the X-axis">
+        <param name="Name" value="Printing Truncated Values on the X-axis">
+        <param name="Local" value="TGView\IDH_Xaxis_Truncate_Print.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Where to truncate the graph">
+        <param name="Name" value="Truncate X-axis where">
+        <param name="Local" value="TGView\IDH_Xaxis_Truncate_Where.htm">
+      </object>
+      </ul>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Y-axes">
+    <param name="Name" value="Select Y-axes">
+    <param name="Local" value="TGView\IDH_Yaxis_Select.htm">
+    <param name="Name" value="Space Between Data and X-axes">
+    <param name="Local" value="TGView\IDH_Yaxis_Xaxes_Space.htm">
+    <param name="Name" value="Space Between Scale and First Graph">
+    <param name="Local" value="TGView\IDH_Yaxis_Space.htm">
+    <param name="Name" value="Y-axis Dialog Box">
+    <param name="Local" value="TGView\IDH_Yaxis_Dialog_Box.htm">
+    <param name="Name" value="Y-axis Labels">
+    <param name="Local" value="TGView\IDH_Yaxis_Label.htm">
+    <param name="Name" value="Y-axis Length">
+    <param name="Local" value="TGView\IDH_Yaxis_Length.htm">
+    <param name="Name" value="Y-axis Limits">
+    <param name="Local" value="TGView\IDH_Yaxis_Limits.htm">
+    <param name="Name" value="Y-axis Style">
+    <param name="Local" value="TGView\IDH_Yaxis_Style.htm">
+    <param name="Name" value="Y-axis Tic Marks">
+    <param name="Local" value="TGView\IDH_Yaxis_Tic_Marks.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Description">
+      <param name="Name" value="Y-axes Description">
+      <param name="Local" value="TGView\IDH_Yaxis_Description.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog box">
+      <param name="Name" value="Y-axis Dialog Box">
+      <param name="Local" value="TGView\IDH_Yaxis_Dialog_Box.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Distance between ends of Y-axis and data">
+      <param name="Name" value="Space Between Data and X-axes">
+      <param name="Local" value="TGView\IDH_Yaxis_Xaxes_Space.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Select Y-axes">
+      <param name="Name" value="Select Y-axes">
+      <param name="Local" value="TGView\IDH_Yaxis_Select.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Space between Y-axis scale and first graph">
+      <param name="Name" value="Space Between Scale and First Graph">
+      <param name="Local" value="TGView\IDH_Yaxis_Space.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Label">
+      <param name="Name" value="Y-axis Labels">
+      <param name="Local" value="TGView\IDH_Yaxis_Label.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Length">
+      <param name="Name" value="Y-axis Length">
+      <param name="Local" value="TGView\IDH_Yaxis_Length.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Axis limits and scale limits">
+      <param name="Name" value="Y-axis Limits">
+      <param name="Local" value="TGView\IDH_Yaxis_Limits.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Properties">
+      <param name="Name" value="Y-axis Properties">
+      <param name="Local" value="TGView\IDH_Yaxis_Properties.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Color">
+        <param name="Name" value="Y-axis Properties">
+        <param name="Local" value="TGView\IDH_Yaxis_Properties.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Line width">
+        <param name="Name" value="Y-axis Properties">
+        <param name="Local" value="TGView\IDH_Yaxis_Properties.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Style">
+      <param name="Name" value="Y-axis Style">
+      <param name="Local" value="TGView\IDH_Yaxis_Style.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Tic marks">
+      <param name="Name" value="Y-axis Tic Marks">
+      <param name="Local" value="TGView\IDH_Yaxis_Tic_Marks.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Zones">
+    <param name="Name" value="Draw Zone Through Zone Labels Column">
+    <param name="Local" value="TGView\IDH_Zone_LabCol.htm">
+    <param name="Name" value="Zone Labels">
+    <param name="Local" value="TGView\IDH_Zone_Labels.htm">
+    <param name="Name" value="Zone Levels">
+    <param name="Local" value="TGView\IDH_Zone_Levels.htm">
+    <param name="Name" value="Zone Options">
+    <param name="Local" value="TGView\IDH_Zone_Options.htm">
+    <param name="Name" value="Zone Order">
+    <param name="Local" value="TGView\IDH_Zone_Order.htm">
+    <param name="Name" value="Zone Style">
+    <param name="Local" value="TGView\IDH_Zone_Style.htm">
+    <param name="Name" value="Zone Text">
+    <param name="Local" value="TGView\IDH_Zone_Column_Title.htm">
+    <param name="Name" value="Zones">
+    <param name="Local" value="TGView\IDH_Zones.htm">
+    <param name="Name" value="Zones Dialog Box">
+    <param name="Local" value="TGView\IDH_Zones_Dialog.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Description">
+      <param name="Name" value="Zones">
+      <param name="Local" value="TGView\IDH_Zones.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dialog box">
+      <param name="Name" value="Zones Dialog Box">
+      <param name="Local" value="TGView\IDH_Zones_Dialog.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Column title">
+      <param name="Name" value="Zone Column Title">
+      <param name="Local" value="TGView\IDH_Zone_Column_Title.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Draw zone through zone labels column">
+      <param name="Name" value="Draw Zone Through Zone Labels Column">
+      <param name="Local" value="TGView\IDH_Zone_LabCol.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Labels">
+      <param name="Name" value="Zone Labels">
+      <param name="Local" value="TGView\IDH_Zone_Labels.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Levels">
+      <param name="Name" value="Zone Levels">
+      <param name="Local" value="TGView\IDH_Zone_Levels.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Options">
+      <param name="Name" value="Zone Options">
+      <param name="Local" value="TGView\IDH_Zone_Options.htm">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Zone line options">
+        <param name="Name" value="Zone Line Options">
+        <param name="Local" value="TGView\IDH_Zone_Line_Options.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Zone screen options">
+        <param name="Name" value="Zone Screen Options">
+        <param name="Local" value="TGView\IDH_Zone_Screen_Options.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Order">
+      <param name="Name" value="Zone Order">
+      <param name="Local" value="TGView\IDH_Zone_Order.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Style">
+      <param name="Name" value="Zone Style">
+      <param name="Local" value="TGView\IDH_Zone_Style.htm">
+    </object>
+    </ul>
+</ul>
+</html>

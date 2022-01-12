@@ -1,0 +1,11 @@
+C++Linker  
+  Disable incremental link: set to true
+
+C++Linker/Output
+  Heap size, maximum: set to 0x00500000
+  Stack size, maximum: set to 0x00500000
+
+Delphi Compiler/Compiling
+  Runtime errors/Overflow checking: set to true
+  Runtime errors/Range checking: set to true
+

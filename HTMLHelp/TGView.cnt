@@ -1,0 +1,50 @@
+:Base TGView.hlp
+:Title TGView Help
+1 Introduction
+2 What is TGView?=IDH_Introduction
+1 Graphics primitives
+2 Line widths=IDH_LineWidth
+2 Fonts=IDH_FontDialog
+1 Y-axes
+2 Y-axes dialog box=IDH_Yaxes
+2 Axis and scale limits=IDH_YaxisLimits
+2 Tic marks=IDH_YaxisTicMarks
+2 Axis label=IDH_YaxisLabel
+1 X-axes
+2 X-axes dialog box=IDH_Xaxes
+2 Axis options=IDH_XaxisAxis
+2 Tic marks=IDH_XaxisTicMarks
+2 Name=IDH_XaxisName
+2 Truncate=IDH_XaxisTruncate
+1 Graph styles
+2 Graph style dialog box=IDH_GraphStyleDialogBox
+2 Silhouette=IDH_Silhouette
+2 Histogram=IDH_Histogram
+2 Line=IDH_LineGraph
+2 Numbers=IDH_Numbers
+2 Presence=IDH_Presence
+1 Graph order
+2 Graph order dialog box=IDH_GraphOrderDialogBox
+2 Overlay graphs=IDH_Overlay
+2 Stack graphs=IDH_Stack
+2 Skip graphs=IDH_Skip
+2 Edit graph names=IDH_EditGraphNames
+2 Format graph names=IDH_FormatGraphNames
+1 Zones
+2 Description=IDH_Zones
+2 Zones dialog box=IDH_ZonesDialog
+2 Levels=IDH_ZoneLevels
+2 Labels=IDH_ZoneLabels
+2 Text=IDH_ZoneText
+1 Groups
+2 Description=IDH_Groups
+2 Groups Dialog Box=IDH_GroupsDialog
+1 Text
+2 Text dialog box=IDH_Text
+2 Header and footer=IDH_HeaderAndFooter
+2 Random text=IDH_RandomText
+2 Interactive text=IDH_InteractiveText
+1 Interactive editing
+2 Introduction=IDH_InteractiveEditing
+2 Graphs=IDH_InteractiveGraphEdit
+2 Text=IDH_InteractiveText

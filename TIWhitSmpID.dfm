@@ -1,0 +1,460 @@
+object WhitmoreSampleIDForm: TWhitmoreSampleIDForm
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Assign Neotoma SampleID to Whitmore Sample'
+  ClientHeight = 170
+  ClientWidth = 413
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 413
+    Height = 41
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 0
+    object LabeledEdit1: TLabeledEdit
+      Left = 108
+      Top = 11
+      Width = 121
+      Height = 21
+      EditLabel.Width = 95
+      EditLabel.Height = 13
+      EditLabel.Caption = 'Neotoma SampleID:'
+      LabelPosition = lpLeft
+      TabOrder = 0
+    end
+    object cxButton1: TcxButton
+      Left = 235
+      Top = 10
+      Width = 169
+      Height = 25
+      Caption = 'Validate Neotoma SampleID'
+      OptionsImage.Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000000000000000000000000000000000000000000000000
+        00000000000000000002000000070000000C0000001000000012000000110000
+        000E000000080000000200000000000000000000000000000000000000000000
+        000100000004000101120D2A1D79184E36C6216B4BFF216B4BFF216C4BFF1A53
+        3AD20F2F21840001011500000005000000010000000000000000000000000000
+        0005050F0A351C5B40DC24805CFF29AC7EFF2CC592FF2DC894FF2DC693FF2AAE
+        80FF258560FF1A563DD405110C3D00000007000000010000000000000003040E
+        0A31206548ED299D74FF2FC896FF2EC996FF56D4ACFF68DAB5FF3BCD9DFF30C9
+        96FF32CA99FF2BA479FF227050F805110C3D00000005000000000000000A1A57
+        3DD02EA57CFF33CA99FF2EC896FF4CD2A8FF20835CFF00673BFF45BE96FF31CB
+        99FF31CB98FF34CC9CFF31AD83FF1B5C41D300010113000000020B23185E2E8A
+        66FF3BCD9EFF30CA97FF4BD3A9FF349571FF87AF9DFFB1CFC1FF238A60FF45D3
+        A8FF36CF9FFF33CD9BFF3ED0A3FF319470FF0F32237F00000007184D37B63DB3
+        8CFF39CD9FFF4BD5A9FF43A382FF699782FFF8F1EEFFF9F3EEFF357F5DFF56C4
+        A1FF43D5A8FF3ED3A4FF3CD1A4FF41BC95FF1B5C43CD0000000B1C6446DF4BCA
+        A4FF44D2A8FF4FB392FF4E826AFFF0E9E6FFC0C3B5FFEFE3DDFFCEDDD4FF1B75
+        4FFF60DCB8FF48D8ACFF47D6AAFF51D4ACFF247A58F80000000E217050F266D9
+        B8FF46D3A8FF0B6741FFD2D2CBFF6A8F77FF116B43FF73967EFFF1E8E3FF72A2
+        8BFF46A685FF5EDFBAFF4CD9AFFF6BE2C2FF278460FF020604191E684ADC78D9
+        BEFF52DAB1FF3DBA92FF096941FF2F9C76FF57DEB8FF2D9973FF73967EFFF0EA
+        E7FF4F886CFF5ABB9AFF5BDEB9FF7FE2C7FF27835FF80000000C19523BAB77C8
+        B0FF62E0BCFF56DDB7FF59DFBAFF5CE1BDFF5EE2BEFF5FE4C1FF288C67FF698E
+        76FFE6E1DCFF176B47FF5FD8B4FF83D5BDFF1E674CC60000000909201747439C
+        7BFF95ECD6FF5ADFBAFF5EE2BDFF61E4BFFF64E6C1FF67E6C5FF67E8C7FF39A1
+        7EFF1F6D4AFF288B64FF98EFD9FF4DAC8CFF1036286D00000004000000041C5F
+        46B578C6ADFF9AEED9FF65E5C0FF64E7C3FF69E7C6FF6BE8C8FF6CE9C9FF6BEA
+        C9FF5ED6B6FF97EDD7FF86D3BBFF237759D20102010C0000000100000001030A
+        0718247B5BDA70C1A8FFB5F2E3FF98F0DAFF85EDD4FF75EBCEFF88EFD6FF9CF2
+        DDFFBAF4E7FF78CDB3FF2A906DEA0615102E0000000200000000000000000000
+        0001030A07171E694FB844AB87FF85D2BBFFA8E6D6FFC5F4EBFFABE9D8FF89D8
+        C1FF4BB692FF237F60CB05130E27000000030000000000000000000000000000
+        000000000001000000030A241B411B60489D258464CF2C9D77EE258867CF1F71
+        56B00E3226560000000600000002000000000000000000000000}
+      TabOrder = 1
+      OnClick = cxButton1Click
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 129
+    Width = 413
+    Height = 41
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 1
+    object FlowPanel1: TFlowPanel
+      Left = 36
+      Top = 4
+      Width = 340
+      Height = 25
+      AutoSize = True
+      AutoWrap = False
+      BevelOuter = bvNone
+      Caption = 'FlowPanel1'
+      TabOrder = 0
+      object cxButton3: TcxButton
+        Left = 0
+        Top = 0
+        Width = 265
+        Height = 25
+        Caption = 'Assign Neotoma SampleID to Whitmore Sample'
+        OptionsImage.Glyph.Data = {
+          36040000424D3604000000000000360000002800000010000000100000000100
+          2000000000000004000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000003300000033000000330000
+          0000000000000000000000000000000000000000000000000000000000000000
+          000A0000002600000033000000330000003350677AFF496684FF5090D9FF0000
+          0033000000250000000A000000000000000000000000000000000000001F2322
+          205C837E75C9B0AA9EFFB0AA9DFFB8AD9CFF54809FFF7FA6B6FF8ED5FFFF2D65
+          9BFF908272C82523205C0000001F0000000000000000000000006B6760ADB4AE
+          A2FFC5BEB3FFD4CAC2FFE2D8CFFFF2E1D5FF39ABF2FF89E5FFFF7FD3FFFF1099
+          FFFF2D659BFFC8B6A0FF6F6960AD000000000000000000000000B1AB9FFFC8C1
+          B6FFCFC7BFFFD6CCC5FFDDD3CAFFE9DBD1FFFCE6D7FF1F70C4FF3EC4FFFF2AAA
+          FFFF159BFFFF2E659BFFC4B39EFF000000000000000000000000B0AB9EFFC7C0
+          B6FFCDC4BBFFD3CAC2FFDAD1C8FFE3D8CFFFF3E4DAFFF9E1D0FF2372C3FF43C6
+          FFFF2BABFFFF139BFFFF2A67A1FF000000330000000000000000B0AA9EFFCAC3
+          B9FFEAE5DDFFF7F3EBFFFFFBF4FFFDFAF3FFFEFAF2FFFFFDF2FFFFFFF2FF2574
+          C6FF41C7FFFF21ABFFFF83B0D7FF7E7871FF00000033000000006F6B64ADF9F3
+          EDFFD8D1C9FFC2B8B0FFBFB6AEFFC5BAB2FFC8BEB5FFC7BCB3FFC7BAAFFFD7C2
+          B1FF2176CCFFAEDBF1FF928880FFC1BFB8FF777C6EFF00000033706C64B4A39A
+          8FFFBAB2A7FFCAC1B8FFDED5CCFFE5DBD3FFECE1DAFFE8DED5FFE1D7CEFFD3C5
+          BAFFC7B8A9FF857F7AFFEAE8E5FF888C82FFBA7AB6FF9869CAFFB1AB9FFFC9C2
+          B9FFCFC7BFFFD5CCC4FFDCD3CAFFE3D9D1FFEADFD8FFE5DCD3FFDED4CCFFD9CF
+          C5FFD3CBC1FFCFC6BBFF7F817CFFE1B1E1FFCB96C6FFAE7DCEFFB0AB9EFFC7C0
+          B6FFCCC4BBFFD3C9C1FFDAD0C7FFE1D7CFFFEBE1DAFFE4D9D1FFDCD1C9FFD5CC
+          C2FFCFC7BDFFCAC3B8FFB0AE9AFFC187D7FFBE8AD3FF00000000AFAA9DFFC8C1
+          B7FFE8E3DBFFF5F0E8FFFDF8F2FFFCF8F1FFFBF7F0FFFCF7F1FFFCF8F1FFF6F0
+          EAFFE9E2DBFFC9C3B9FFAEAC99FF000000000000000000000000AEA89CFFFBF5
+          EFFFEEE7DEFFE0D8CEFFDDD5CCFFDDD4CBFFDDD4CBFFDDD4CBFFDDD5CCFFE0D7
+          CEFFEDE6DEFFFBF6EFFFAEAA9AFF000000000000000000000000AFA99DFFE1D8
+          CEFFE1D7CEFFDFD6CCFFDFD5CBFFDFD5CBFFDFD5CBFFDFD5CBFFDFD5CBFFDFD6
+          CCFFE1D7CEFFE1D8CEFFAFAA9DFF0000000000000000000000006A675F99B6B0
+          A4FFD6CFC4FFE6DED5FFEFE7DDFFEEE6DCFFEEE6DCFFEEE6DCFFEFE7DDFFE6DE
+          D5FFD6CFC4FFB6B0A4FF6A675F99000000000000000000000000000000002322
+          2033827D74BCAEA99CFFAEA89CFFAEA89CFFAEA89CFFAEA89CFFAEA89CFFAEA9
+          9CFF827D74BC2322203300000000000000000000000000000000}
+        TabOrder = 0
+        Visible = False
+        OnClick = cxButton3Click
+      end
+      object cxButton2: TcxButton
+        Left = 265
+        Top = 0
+        Width = 75
+        Height = 25
+        Caption = 'Cancel'
+        ModalResult = 2
+        OptionsImage.Glyph.Data = {
+          36040000424D3604000000000000360000002800000010000000100000000100
+          2000000000000004000000000000000000000000000000000000000000000000
+          0000000000020000000C05031A46110852AB190C76E31D0E89FF1C0E89FF190C
+          76E4120852AD06031B4D0000000E000000030000000000000000000000000000
+          000301010519130A55A9211593FF2225AEFF2430C2FF2535CBFF2535CCFF2430
+          C3FF2225AFFF211594FF140B58B20101051E0000000400000000000000020101
+          03151C1270CD2522A6FF2D3DCCFF394BD3FF3445D1FF2939CDFF2839CDFF3344
+          D0FF394AD4FF2D3CCDFF2523A8FF1C1270D20101051D00000003000000091912
+          5BA72A27AAFF2F41D0FF3541C7FF2726ABFF3137BCFF384AD3FF384BD3FF3137
+          BCFF2726ABFF3540C7FF2E40D0FF2927ACFF1A115EB10000000D08061C3D3129
+          A2FD2C3CCCFF3842C6FF5F5DBDFFEDEDF8FF8B89CEFF3337B9FF3437B9FF8B89
+          CEFFEDEDF8FF5F5DBDFF3741C6FF2B3ACDFF3028A4FF0907204A1E185F9F373B
+          BCFF3042D0FF2621A5FFECE7ECFFF5EBE4FFF8F2EEFF9491D1FF9491D1FFF8F1
+          EDFFF3E9E2FFECE6EBFF2621A5FF2E3FCFFF343ABEFF201A66B0312A92E03542
+          CBFF3446D1FF2C2FB5FF8070ADFFEBDBD3FFF4EAE4FFF7F2EDFFF8F1EDFFF4E9
+          E2FFEADAD1FF7F6FACFF2B2EB5FF3144D0FF3040CBFF312A95E53E37AEFA3648
+          D0FF374AD3FF3A4ED5FF3234B4FF8A7FB9FFF6ECE7FFF5ECE6FFF4EBE5FFF6EB
+          E5FF897DB8FF3233B4FF384BD3FF3547D2FF3446D1FF3E37AEFA453FB4FA4557
+          D7FF3B50D5FF4C5FDAFF4343B7FF9189C7FFF7EFE9FFF6EEE9FFF6EFE8FFF7ED
+          E8FF9087C5FF4242B7FF495DD8FF394CD4FF3F52D4FF443FB3FA403DA1DC5967
+          DAFF5B6EDDFF4F4DBAFF8F89CAFFFBF6F4FFF7F1ECFFEDE1D9FFEDE0D9FFF7F0
+          EAFFFAF5F2FF8F89CAFF4E4DB9FF576ADCFF5765D9FF403EA4E12E2D70987C85
+          DDFF8798E8FF291D9BFFE5DADEFFF6EEEBFFEDDFDAFF816EA9FF816EA9FFEDDF
+          D8FFF4ECE7FFE5D9DCFF291D9BFF8494E7FF7A81DDFF33317BAC111125356768
+          D0FC9EACEDFF686FCEFF5646A1FFCCB6BCFF7A68A8FF4C4AB6FF4D4BB7FF7A68
+          A8FFCBB5BCFF5646A1FF666DCCFF9BAAEEFF696CD0FD1212273F000000043B3B
+          79977D84DFFFA5B6F1FF6D74D0FF2D219BFF5151B9FF8EA2ECFF8EA1ECFF5252
+          BBFF2D219BFF6B72D0FFA2B3F0FF8086E0FF404183A700000008000000010303
+          050C4E509DBC8087E2FFAEBDF3FFA3B6F1FF9DAFF0FF95A9EEFF95A8EEFF9BAD
+          EFFFA2B3F0FFACBCF3FF838AE3FF4F52A0C10303051100000002000000000000
+          000100000005323464797378D9F8929CEAFFA1AEEFFFB0BFF3FFB0BFF4FFA2AE
+          EFFF939DE9FF7479DAF83234647D000000080000000200000000000000000000
+          000000000000000000031213232D40437D935D61B5D07378DFFC7378DFFC5D61
+          B5D040437D951212223000000004000000010000000000000000}
+        TabOrder = 1
+      end
+    end
+  end
+  object Panel3: TPanel
+    Left = 0
+    Top = 41
+    Width = 413
+    Height = 88
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 2
+    Visible = False
+    object GridPanel1: TGridPanel
+      Left = 8
+      Top = 8
+      Width = 154
+      Height = 63
+      Alignment = taLeftJustify
+      BevelOuter = bvNone
+      Color = clWhite
+      ColumnCollection = <
+        item
+          SizeStyle = ssAbsolute
+          Value = 90.000000000000000000
+        end
+        item
+          SizeStyle = ssAbsolute
+          Value = 64.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = cxLabel1
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = cxTextEdit1
+          Row = 0
+        end
+        item
+          Column = 0
+          Control = cxLabel2
+          Row = 1
+        end
+        item
+          Column = 1
+          Control = cxTextEdit2
+          Row = 1
+        end
+        item
+          Column = 0
+          Control = cxLabel3
+          Row = 2
+        end
+        item
+          Column = 1
+          Control = cxTextEdit3
+          Row = 2
+        end>
+      ParentBackground = False
+      RowCollection = <
+        item
+          SizeStyle = ssAbsolute
+          Value = 21.000000000000000000
+        end
+        item
+          SizeStyle = ssAbsolute
+          Value = 21.000000000000000000
+        end
+        item
+          SizeStyle = ssAbsolute
+          Value = 21.000000000000000000
+        end>
+      ShowCaption = False
+      TabOrder = 0
+      object cxLabel1: TcxLabel
+        Left = 0
+        Top = 0
+        Align = alLeft
+        AutoSize = False
+        Caption = 'SiteID:'
+        Properties.Alignment.Horz = taLeftJustify
+        Height = 21
+        Width = 84
+      end
+      object cxTextEdit1: TcxTextEdit
+        Left = 90
+        Top = 0
+        Align = alLeft
+        TabOrder = 0
+        Width = 64
+      end
+      object cxLabel2: TcxLabel
+        Left = 0
+        Top = 21
+        Align = alLeft
+        Caption = 'CollectionUnitID:'
+      end
+      object cxTextEdit2: TcxTextEdit
+        Left = 90
+        Top = 21
+        Align = alLeft
+        TabOrder = 1
+        Width = 64
+      end
+      object cxLabel3: TcxLabel
+        Left = 0
+        Top = 42
+        Align = alLeft
+        Caption = 'AnalysisUnitID:'
+      end
+      object cxTextEdit3: TcxTextEdit
+        Left = 90
+        Top = 42
+        Align = alLeft
+        TabOrder = 2
+        Width = 64
+      end
+    end
+    object GridPanel2: TGridPanel
+      Left = 173
+      Top = 6
+      Width = 230
+      Height = 63
+      Alignment = taLeftJustify
+      BevelOuter = bvNone
+      Color = clWhite
+      ColumnCollection = <
+        item
+          SizeStyle = ssAbsolute
+          Value = 60.000000000000000000
+        end
+        item
+          SizeStyle = ssAbsolute
+          Value = 170.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = cxLabel4
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = cxTextEdit4
+          Row = 0
+        end
+        item
+          Column = 0
+          Control = cxLabel5
+          Row = 1
+        end
+        item
+          Column = 1
+          Control = cxTextEdit5
+          Row = 1
+        end
+        item
+          Column = 0
+          Control = cxLabel6
+          Row = 2
+        end
+        item
+          Column = 1
+          Control = cxTextEdit6
+          Row = 2
+        end>
+      ParentBackground = False
+      RowCollection = <
+        item
+          SizeStyle = ssAbsolute
+          Value = 21.000000000000000000
+        end
+        item
+          SizeStyle = ssAbsolute
+          Value = 21.000000000000000000
+        end
+        item
+          SizeStyle = ssAbsolute
+          Value = 21.000000000000000000
+        end>
+      ShowCaption = False
+      TabOrder = 1
+      object cxLabel4: TcxLabel
+        Left = 0
+        Top = 0
+        Align = alLeft
+        AutoSize = False
+        Caption = 'Site Name:'
+        Properties.Alignment.Horz = taLeftJustify
+        Height = 21
+        Width = 84
+      end
+      object cxTextEdit4: TcxTextEdit
+        Left = 60
+        Top = 0
+        Align = alLeft
+        TabOrder = 0
+        Width = 170
+      end
+      object cxLabel5: TcxLabel
+        Left = 0
+        Top = 21
+        Align = alLeft
+        Caption = 'Handle:'
+      end
+      object cxTextEdit5: TcxTextEdit
+        Left = 60
+        Top = 21
+        Align = alLeft
+        TabOrder = 1
+        Width = 170
+      end
+      object cxLabel6: TcxLabel
+        Left = 0
+        Top = 42
+        Align = alLeft
+        Caption = 'Depth:'
+      end
+      object cxTextEdit6: TcxTextEdit
+        Left = 60
+        Top = 42
+        Align = alLeft
+        TabOrder = 2
+        Width = 170
+      end
+    end
+  end
+  object ipwHTTP1: TipwHTTP
+    TransferredDataLimit = 65536
+    Left = 352
+    Top = 96
+  end
+  object TcpClient1: TTcpClient
+    Left = 288
+    Top = 96
+  end
+  object ADOConnection1: TADOConnection
+    LoginPrompt = False
+    Mode = cmShareDenyNone
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 252
+    Top = 96
+  end
+  object ADOQuery1: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <
+      item
+        Name = 'SampleID'
+        DataType = ftInteger
+        Size = -1
+        Value = Null
+      end
+      item
+        Name = 'ID1'
+        DataType = ftInteger
+        Size = -1
+        Value = Null
+      end>
+    SQL.Strings = (
+      'UPDATE Whitmore SET Whitmore.NeotomaSampleID = :SampleID '
+      'WHERE (((Whitmore.ID1)=:ID1));')
+    Left = 220
+    Top = 96
+  end
+  object ipsJSONS1: TipsJSONS
+    SSLCertStore = 'MY'
+    OnSSLServerAuthentication = ipsJSONS1SSLServerAuthentication
+    Left = 320
+    Top = 96
+  end
+end

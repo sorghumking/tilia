@@ -1,0 +1,1168 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{9B9B3EAB-F931-4CFD-AC56-CC8B7F011B42}</ProjectGuid>
+			<ProjectVersion>12.3</ProjectVersion>
+			<MainSource>Tilia.cpp</MainSource>
+			<Base>True</Base>
+			<Config Condition="'$(Config)'==''">Release</Config>
+			<Platform>Win32</Platform>
+			<AppType>Application</AppType>
+			<FrameworkType>VCL</FrameworkType>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<LinkPackageStatics>tmsd2011.lib;VclSmp.lib;dxSpreadSheetRS15.lib;dxSkinOffice2016ColorfulRS15.lib;dxSkinOffice2016DarkRS15.lib;dxSkinVisualStudio2013BlueRS15.lib;dxSkinVisualStudio2013DarkRS15.lib;dxSkinVisualStudio2013LightRS15.lib;TMSWebGMapsPkgD2011.lib</LinkPackageStatics>
+			<OutputExt>exe</OutputExt>
+			<PackageImports>vclimg.bpi;vcl.bpi;vclx.bpi;dbrtl.bpi;Rave90VCL.bpi;bdertl.bpi;rtl.bpi;bcbie.bpi;xmlrtl.bpi;vclactnband.bpi;bcbsmp.bpi;svnui.bpi;svn.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vcldb.bpi;vcldbx.bpi;vcltouch.bpi;dsnap.bpi;dsnapcon.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;inet.bpi;intrawebdb_110_150.bpi;Intraweb_110_150.bpi;vclie.bpi;websnap.bpi;webdsnap.bpi;inetdb.bpi;inetdbbde.bpi;inetdbxpress.bpi;soaprtl.bpi;vclribbon.bpi;dbexpress.bpi;DbxCommonDriver.bpi;DataSnapIndy10ServerTransport.bpi;DataSnapProviderClient.bpi;DbxClientDriver.bpi;DataSnapClient.bpi;dbxcds.bpi;DataSnapServer.bpi;AzureCloud.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;DBXFirebirdDriver.bpi;DBXSybaseASEDriver.bpi;DBXSybaseASADriver.bpi;DBXOracleDriver.bpi;DBXMSSQLDriver.bpi;DBXInformixDriver.bpi;DBXDb2Driver.bpi;CodeSiteExpressVcl.bpi;ProfGridC14.bpi;GridPackd2011.bpi;DBGridPackd2011.bpi;TMSWebGMapsPkgCXE.bpi;GridPackXlsd2011.bpi;GridPackDEd2011.bpi;DBGridPackDEd2011.bpi;dxCoreRS15.bpi;cxLibraryRS15.bpi;dxGDIPlusRS15.bpi;dxThemeRS15.bpi;cxPageControlRS15.bpi;dxServerModeRS15.bpi;cxDataRS15.bpi;dxDBXServerModeRS15.bpi;dxADOServerModeRS15.bpi;cxEditorsRS15.bpi;dxWizardControlRS15.bpi;cxBarEditItemRS15.bpi;dxBarRS15.bpi;dxComnRS15.bpi;dxBarExtDBItemsRS15.bpi;dxBarExtItemsRS15.bpi;dxBarDBNavRS15.bpi;dxRibbonRS15.bpi;dxTabbedMDIRS15.bpi;dxDockingRS15.bpi;dxLayoutControlRS15.bpi;cxSchedulerRS15.bpi;cxExportRS15.bpi;cxTreeListRS15.bpi;cxGridRS15.bpi;cxVerticalGridRS15.bpi;dxmdsRS15.bpi;dxTileControlRS15.bpi;dxNavBarRS15.bpi;dxSkinsCoreRS15.bpi;dxSkinBlackRS15.bpi;dxSkinBlueprintRS15.bpi;dxSkinBlueRS15.bpi;dxSkinCaramelRS15.bpi;dxSkinCoffeeRS15.bpi;dxSkinDarkRoomRS15.bpi;dxSkinDarkSideRS15.bpi;dxSkinDevExpressDarkStyleRS15.bpi;dxSkinDevExpressStyleRS15.bpi;dxSkinFoggyRS15.bpi;dxSkinGlassOceansRS15.bpi;dxSkinHighContrastRS15.bpi;dxSkiniMaginaryRS15.bpi;dxSkinLilianRS15.bpi;dxSkinLiquidSkyRS15.bpi;dxSkinLondonLiquidSkyRS15.bpi;dxSkinMcSkinRS15.bpi;dxSkinMetropolisDarkRS15.bpi;dxSpellCheckerRS15.bpi;dxSkinMetropolisRS15.bpi;dxSkinMoneyTwinsRS15.bpi;dxSkinOffice2007BlackRS15.bpi;dxSkinOffice2007BlueRS15.bpi;dxSkinOffice2007GreenRS15.bpi;dxSkinOffice2007PinkRS15.bpi;dxSkinOffice2007SilverRS15.bpi;dxSkinOffice2010BlackRS15.bpi;dxSkinOffice2010BlueRS15.bpi;dxSkinOffice2010SilverRS15.bpi;dxSkinOffice2013DarkGrayRS15.bpi;dxSkinOffice2013LightGrayRS15.bpi;dxSkinOffice2013WhiteRS15.bpi;dxSkinPumpkinRS15.bpi;dxSkinSevenClassicRS15.bpi;dxSkinSevenRS15.bpi;dxSkinSharpPlusRS15.bpi;dxSkinSharpRS15.bpi;dxSkinSilverRS15.bpi;dxSkinSpringTimeRS15.bpi;dxSkinStardustRS15.bpi;dxSkinSummer2008RS15.bpi;dxSkinTheAsphaltWorldRS15.bpi;dxSkinValentineRS15.bpi;dxSkinVS2010RS15.bpi;dxSkinWhiteprintRS15.bpi;dxSkinXmas2008BlueRS15.bpi;dxPSCoreRS15.bpi;dxPSLnksRS15.bpi;dxPScxPCProdRS15.bpi;cxPivotGridRS15.bpi;cxPivotGridOLAPRS15.bpi;dxdbtrRS15.bpi;dxtrmdRS15.bpi;dxorgcRS15.bpi;dxdborRS15.bpi;dxFlowChartRS15.bpi;cxPageControldxBarPopupMenuRS15.bpi;cxSchedulerRibbonStyleEventEditorRS15.bpi;cxSchedulerGridRS15.bpi;cxSchedulerTreeBrowserRS15.bpi;cxTreeListdxBarPopupMenuRS15.bpi;dxSkinscxPCPainterRS15.bpi;dxSkinscxSchedulerPainterRS15.bpi;dxSkinsdxBarPainterRS15.bpi;dxSkinsdxNavBarPainterRS15.bpi;dxSkinsdxRibbonPainterRS15.bpi;dxSkinsdxDLPainterRS15.bpi;dxPScxCommonRS15.bpi;dxPScxExtCommonRS15.bpi;dxPSdxLCLnkRS15.bpi;dxPScxPivotGridLnkRS15.bpi;dxPScxSchedulerLnkRS15.bpi;dxPScxSSLnkRS15.bpi;dxPScxTLLnkRS15.bpi;dxPScxVGridLnkRS15.bpi;dxPSdxDBOCLnkRS15.bpi;dxPSdxOCLnkRS15.bpi;dxPSdxDBTVLnkRS15.bpi;dxPSdxFCLnkRS15.bpi;dxPScxGridLnkRS15.bpi;dxPsPrVwAdvRS15.bpi;dxPSPrVwRibbonRS15.bpi;cxPivotGridChartRS15.bpi</PackageImports>
+			<LinkPackageImports>rtl.bpi;vcl.bpi;vclactnband.bpi;vclx.bpi;ProfGridC14.bpi;vclimg.bpi;cxLibraryRS15.bpi;dxGDIPlusRS15.bpi;dxCoreRS15.bpi;dxThemeRS15.bpi;cxPageControlRS15.bpi;cxGridRS15.bpi;dxLayoutControlRS15.bpi;cxEditorsRS15.bpi;cxDataRS15.bpi;dbrtl.bpi;vcldb.bpi;dxComnRS15.bpi;cxExportRS15.bpi;xmlrtl.bpi;dxServerModeRS15.bpi;inet.bpi;dxSkinsCoreRS15.bpi;dxSkinBlackRS15.bpi;dxSkinBlueprintRS15.bpi;dxSkinBlueRS15.bpi;dxSkinCaramelRS15.bpi;dxSkinCoffeeRS15.bpi;dxSkinDarkRoomRS15.bpi;dxSkinDarkSideRS15.bpi;dxSkinDevExpressDarkStyleRS15.bpi;dxSkinDevExpressStyleRS15.bpi;dxSkinFoggyRS15.bpi;dxSkinGlassOceansRS15.bpi;dxSkinHighContrastRS15.bpi;dxSkiniMaginaryRS15.bpi;dxSkinLilianRS15.bpi;dxSkinLiquidSkyRS15.bpi;dxSkinLondonLiquidSkyRS15.bpi;dxSkinMcSkinRS15.bpi;dxSkinMetropolisDarkRS15.bpi;dxSkinMetropolisRS15.bpi;dxSkinMoneyTwinsRS15.bpi;dxSkinOffice2007BlackRS15.bpi;dxSkinOffice2007BlueRS15.bpi;dxSkinOffice2007GreenRS15.bpi;dxSkinOffice2007PinkRS15.bpi;dxSkinOffice2007SilverRS15.bpi;dxSkinOffice2010BlackRS15.bpi;dxSkinOffice2010BlueRS15.bpi;dxSkinOffice2010SilverRS15.bpi;dxSkinOffice2013DarkGrayRS15.bpi;dxSkinOffice2013LightGrayRS15.bpi;dxSkinOffice2013WhiteRS15.bpi;dxSkinPumpkinRS15.bpi;dxSkinSevenClassicRS15.bpi;dxSkinSevenRS15.bpi;dxSkinSharpPlusRS15.bpi;dxSkinSharpRS15.bpi;dxSkinSilverRS15.bpi;dxSkinSpringTimeRS15.bpi;dxSkinStardustRS15.bpi;dxSkinSummer2008RS15.bpi;dxSkinTheAsphaltWorldRS15.bpi;dxSkinValentineRS15.bpi;dxSkinVS2010RS15.bpi;dxSkinWhiteprintRS15.bpi;dxSkinXmas2008BlueRS15.bpi;dxdbtrRS15.bpi;cxPageControldxBarPopupMenuRS15.bpi;dxBarRS15.bpi;dxSkinscxPCPainterRS15.bpi;Tee.bpi;TMSWebGMapsPkgCXE.bpi;IndyCore.bpi;IndySystem.bpi;IndyProtocols.bpi;vclie.bpi;DbxCommonDriver.bpi;dsnap.bpi;adortl.bpi;bdertl.bpi</LinkPackageImports>
+			<ProjectType>CppVCLApplication</ProjectType>
+			<IncludePath>..\..\..\..\OneDrive\RAD Studio\Projects\Tilia\;$(IncludePath)</IncludePath>
+			<_TCHARMapping>wchar_t</_TCHARMapping>
+			<Multithreaded>true</Multithreaded>
+			<AllPackageLibs>rtl.lib;vcl.lib;vclactnband.lib;vclx.lib;ProfGridC14.lib;vclimg.lib;cxLibraryRS15.lib;dxGDIPlusRS15.lib;dxCoreRS15.lib;dxThemeRS15.lib;cxPageControlRS15.lib;cxGridRS15.lib;dxLayoutControlRS15.lib;cxEditorsRS15.lib;cxDataRS15.lib;dbrtl.lib;vcldb.lib;dxComnRS15.lib;cxExportRS15.lib;xmlrtl.lib;dxServerModeRS15.lib;inet.lib;dxSkinsCoreRS15.lib;dxSkinBlackRS15.lib;dxSkinBlueprintRS15.lib;dxSkinBlueRS15.lib;dxSkinCaramelRS15.lib;dxSkinCoffeeRS15.lib;dxSkinDarkRoomRS15.lib;dxSkinDarkSideRS15.lib;dxSkinDevExpressDarkStyleRS15.lib;dxSkinDevExpressStyleRS15.lib;dxSkinFoggyRS15.lib;dxSkinGlassOceansRS15.lib;dxSkinHighContrastRS15.lib;dxSkiniMaginaryRS15.lib;dxSkinLilianRS15.lib;dxSkinLiquidSkyRS15.lib;dxSkinLondonLiquidSkyRS15.lib;dxSkinMcSkinRS15.lib;dxSkinMetropolisDarkRS15.lib;dxSkinMetropolisRS15.lib;dxSkinMoneyTwinsRS15.lib;dxSkinOffice2007BlackRS15.lib;dxSkinOffice2007BlueRS15.lib;dxSkinOffice2007GreenRS15.lib;dxSkinOffice2007PinkRS15.lib;dxSkinOffice2007SilverRS15.lib;dxSkinOffice2010BlackRS15.lib;dxSkinOffice2010BlueRS15.lib;dxSkinOffice2010SilverRS15.lib;dxSkinOffice2013DarkGrayRS15.lib;dxSkinOffice2013LightGrayRS15.lib;dxSkinOffice2013WhiteRS15.lib;dxSkinPumpkinRS15.lib;dxSkinSevenClassicRS15.lib;dxSkinSevenRS15.lib;dxSkinSharpPlusRS15.lib;dxSkinSharpRS15.lib;dxSkinSilverRS15.lib;dxSkinSpringTimeRS15.lib;dxSkinStardustRS15.lib;dxSkinSummer2008RS15.lib;dxSkinTheAsphaltWorldRS15.lib;dxSkinValentineRS15.lib;dxSkinVS2010RS15.lib;dxSkinWhiteprintRS15.lib;dxSkinXmas2008BlueRS15.lib;dxdbtrRS15.lib;cxPageControldxBarPopupMenuRS15.lib;dxBarRS15.lib;dxSkinscxPCPainterRS15.lib;Tee.lib;TMSWebGMapsPkgCXE.lib;IndyCore.lib;IndySystem.lib;IndyProtocols.lib;vclie.lib;DbxCommonDriver.lib;dsnap.lib;tmsd2011.lib;adortl.lib;bdertl.lib;VclSmp.lib;dxSpreadSheetRS15.lib;dxSkinOffice2016ColorfulRS15.lib;dxSkinOffice2016DarkRS15.lib;dxSkinVisualStudio2013BlueRS15.lib;dxSkinVisualStudio2013DarkRS15.lib;dxSkinVisualStudio2013LightRS15.lib;TMSWebGMapsPkgD2011.lib</AllPackageLibs>
+			<ILINK_LibraryPath>..\..\..\..\Documents\tmssoftware\TMS VCL WebGMaps\BuilderXE\;..\..\..\..\OneDrive\RAD Studio\Projects\Tilia\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE</DCC_UnitAlias>
+			<DynamicRTL>true</DynamicRTL>
+			<UsePackages>true</UsePackages>
+			<IntermediateOutputDir>.\$(Config)\$(Platform)</IntermediateOutputDir>
+			<FinalOutputDir>.\$(Config)\$(Platform)</FinalOutputDir>
+			<BCC_wpar>false</BCC_wpar>
+			<BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
+			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_IntegerOverflowCheck>true</DCC_IntegerOverflowCheck>
+			<ILINK_DisableIncrementalLinking>true</ILINK_DisableIncrementalLinking>
+			<DCC_RangeChecking>true</DCC_RangeChecking>
+			<ILINK_StackReserveSize>0x00500000</ILINK_StackReserveSize>
+			<ILINK_HeapReserveSize>0x00500000</ILINK_HeapReserveSize>
+			<BCC_MonitorGlobalAndStackData>true</BCC_MonitorGlobalAndStackData>
+			<BCC_AllCodeguardOptions>true</BCC_AllCodeguardOptions>
+			<BCC_MonitorThis>true</BCC_MonitorThis>
+			<BCC_MonitorInlinePtrAccess>true</BCC_MonitorInlinePtrAccess>
+			<IncludePath>C:\Users\Eric\OneDrive\RAD Studio\Projects\ProfGridC14\VER220;$(IncludePath)</IncludePath>
+			<BCC_OptimizeForSpeed>false</BCC_OptimizeForSpeed>
+			<BCC_DisableOptimizations>true</BCC_DisableOptimizations>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+			<Defines>_DEBUG;$(Defines)</Defines>
+			<BCC_InlineFunctionExpansion>false</BCC_InlineFunctionExpansion>
+			<BCC_UseRegisterVariables>None</BCC_UseRegisterVariables>
+			<DCC_Define>DEBUG</DCC_Define>
+			<BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+			<TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
+			<BCC_StackFrames>true</BCC_StackFrames>
+			<ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+			<TASM_Debugging>Full</TASM_Debugging>
+			<BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+			<ILINK_LibraryPath>$(BDSLIB)\$(PLATFORM)\debug;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<BCC_UserSuppliedOptions>--savemem=</BCC_UserSuppliedOptions>
+			<ILINK_StackReserveSize>0x00500000</ILINK_StackReserveSize>
+			<ILINK_HeapReserveSize>0x00500000</ILINK_HeapReserveSize>
+			<IncludePath>C:\Users\Eric\OneDrive\RAD Studio\Projects\ProfGridC14\VER220;$(IncludePath)</IncludePath>
+			<Defines>NDEBUG;$(Defines)</Defines>
+			<TASM_Debugging>None</TASM_Debugging>
+		</PropertyGroup>
+		<ItemGroup>
+			<None Include="..\..\..\..\Documents\tmssoftware\TMS VCL WebGMaps\BuilderXE\TMSWebGMapsPkgD2011.lib">
+				<Exclude>True</Exclude>
+				<IgnorePath>true</IgnorePath>
+				<BuildOrder>195</BuildOrder>
+			</None>
+			<None Include="coniss.h">
+				<BuildOrder>104</BuildOrder>
+			</None>
+			<None Include="pch.h">
+				<BuildOrder>6</BuildOrder>
+			</None>
+			<None Include="StrngOps.h">
+				<BuildOrder>120</BuildOrder>
+			</None>
+			<None Include="Ta_struc.h">
+				<BuildOrder>103</BuildOrder>
+			</None>
+			<None Include="tg.h">
+				<BuildOrder>19</BuildOrder>
+			</None>
+			<CppCompile Include="TGAbout.cpp">
+				<Form>AboutBox</Form>
+				<DependentOn>TGAbout.h</DependentOn>
+				<BuildOrder>180</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGColors.cpp">
+				<Form>ColorsForm</Form>
+				<DependentOn>TGColors.h</DependentOn>
+				<BuildOrder>137</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGDates.cpp">
+				<DependentOn>TGDates.h</DependentOn>
+				<BuildOrder>171</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGDatFrm.cpp">
+				<Form>DatesForm</Form>
+				<DependentOn>TGDatFrm.h</DependentOn>
+				<BuildOrder>128</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGDgrFrm.cpp">
+				<Form>DendrogramForm</Form>
+				<DependentOn>TGDgrFrm.h</DependentOn>
+				<BuildOrder>130</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGDiagrm.cpp">
+				<Form>TGDiagram</Form>
+				<DependentOn>TGDiagrm.h</DependentOn>
+				<BuildOrder>36</BuildOrder>
+			</CppCompile>
+			<None Include="TGDOS.h">
+				<BuildOrder>20</BuildOrder>
+			</None>
+			<CppCompile Include="TGFntDlg.cpp">
+				<Form>FontDialogBox</Form>
+				<DependentOn>TGFntDlg.h</DependentOn>
+				<BuildOrder>125</BuildOrder>
+			</CppCompile>
+			<None Include="TGForms.h">
+				<BuildOrder>132</BuildOrder>
+			</None>
+			<CppCompile Include="TGFrame.cpp">
+				<Form>FrameForm</Form>
+				<DependentOn>TGFrame.h</DependentOn>
+				<BuildOrder>143</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGGraph.cpp">
+				<DependentOn>TGGraph.h</DependentOn>
+				<BuildOrder>172</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGGreek.cpp">
+				<Form>GreekForm</Form>
+				<DependentOn>TGGreek.h</DependentOn>
+				<BuildOrder>136</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGGroups.cpp">
+				<DependentOn>TGGroups.h</DependentOn>
+				<BuildOrder>174</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGGrpFrm.cpp">
+				<Form>GroupForm</Form>
+				<DependentOn>TGGrpFrm.h</DependentOn>
+				<BuildOrder>126</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGGrpOpt.cpp">
+				<Form>GroupOptionsForm</Form>
+				<DependentOn>TGGrpOpt.h</DependentOn>
+				<BuildOrder>127</BuildOrder>
+			</CppCompile>
+			<None Include="TGHelp.h">
+				<BuildOrder>94</BuildOrder>
+			</None>
+			<CppCompile Include="TGItalic.cpp">
+				<Form>ItalicsForm</Form>
+				<DependentOn>TGItalic.h</DependentOn>
+				<BuildOrder>141</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGLinWid.cpp">
+				<Form>LineWidthForm</Form>
+				<DependentOn>TGLinWid.h</DependentOn>
+				<BuildOrder>138</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGLthFrm.cpp">
+				<Form>LithForm</Form>
+				<DependentOn>TGLthFrm.h</DependentOn>
+				<BuildOrder>129</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGMarker.cpp">
+				<DependentOn>TGMarker.h</DependentOn>
+				<BuildOrder>173</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGNewTxt.cpp">
+				<Form>NewTextForm</Form>
+				<DependentOn>TGNewTxt.h</DependentOn>
+				<BuildOrder>135</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGOrder.cpp">
+				<Form>OrderForm</Form>
+				<DependentOn>TGOrder.h</DependentOn>
+				<BuildOrder>140</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGParent.cpp">
+				<Form>ParentForm</Form>
+				<DependentOn>TGParent.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGPatt.cpp">
+				<Form>PatternForm</Form>
+				<DependentOn>TGPatt.h</DependentOn>
+				<BuildOrder>124</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGPDend.cpp">
+				<DependentOn>TGPDend.h</DependentOn>
+				<BuildOrder>175</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGPLith.cpp">
+				<DependentOn>TGPLith.h</DependentOn>
+				<BuildOrder>176</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGPrint.cpp">
+				<Form>PrintForm</Form>
+				<DependentOn>TGPrint.h</DependentOn>
+				<BuildOrder>93</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGraphic.cpp">
+				<DependentOn>TGraphic.h</DependentOn>
+				<BuildOrder>18</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGRare.cpp">
+				<Form>RareForm</Form>
+				<DependentOn>TGRare.h</DependentOn>
+				<BuildOrder>144</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGReg.cpp">
+				<Form>RegistrationForm</Form>
+				<DependentOn>TGReg.h</DependentOn>
+				<BuildOrder>13</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGSelVar.cpp">
+				<Form>SelectVariableForm</Form>
+				<DependentOn>TGSelVar.h</DependentOn>
+				<BuildOrder>133</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGSplash.cpp">
+				<Form>SplashForm</Form>
+				<DependentOn>TGSplash.h</DependentOn>
+				<BuildOrder>3</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGStyle.cpp">
+				<Form>StyleForm</Form>
+				<DependentOn>TGStyle.h</DependentOn>
+				<BuildOrder>131</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGText.cpp">
+				<DependentOn>TGText.h</DependentOn>
+				<BuildOrder>17</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGtgfio.cpp">
+				<DependentOn>TGtgfio.h</DependentOn>
+				<BuildOrder>39</BuildOrder>
+			</CppCompile>
+			<None Include="TGtgfioc.h">
+				<BuildOrder>40</BuildOrder>
+			</None>
+			<CppCompile Include="TGtgxio.cpp">
+				<DependentOn>TGtgxio.h</DependentOn>
+				<BuildOrder>145</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGTxtFrm.cpp">
+				<Form>TextForm</Form>
+				<DependentOn>TGTxtFrm.h</DependentOn>
+				<BuildOrder>142</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGTxtOut.cpp">
+				<DependentOn>TGTxtOut.h</DependentOn>
+				<BuildOrder>177</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGUtils.cpp">
+				<DependentOn>TGUtils.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGXaxFrm.cpp">
+				<Form>XaxesForm</Form>
+				<DependentOn>TGXaxFrm.h</DependentOn>
+				<BuildOrder>134</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGYaxFrm.cpp">
+				<Form>YaxesForm</Form>
+				<DependentOn>TGYaxFrm.h</DependentOn>
+				<BuildOrder>139</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGYaxis.cpp">
+				<DependentOn>TGYaxis.h</DependentOn>
+				<BuildOrder>37</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGZone.cpp">
+				<DependentOn>TGZone.h</DependentOn>
+				<BuildOrder>178</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGZoneLi.cpp">
+				<Form>ZoneLineForm</Form>
+				<DependentOn>TGZoneLi.h</DependentOn>
+				<BuildOrder>122</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGZoneOp.cpp">
+				<Form>ZoneForm</Form>
+				<DependentOn>TGZoneOp.h</DependentOn>
+				<BuildOrder>121</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TGZoneSc.cpp">
+				<Form>ZoneScreenForm</Form>
+				<DependentOn>TGZoneSc.h</DependentOn>
+				<BuildOrder>123</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIAddCal.cpp">
+				<Form>AddCalibProgForm</Form>
+				<DependentOn>TIAddCal.h</DependentOn>
+				<BuildOrder>62</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIAddRep.cpp">
+				<Form>AddRepositoryForm</Form>
+				<DependentOn>TIAddRep.h</DependentOn>
+				<BuildOrder>165</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIAdmUnt.cpp">
+				<Form>NewAdminUnit</Form>
+				<DependentOn>TIAdmUnt.h</DependentOn>
+				<BuildOrder>57</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIAgeBas.cpp">
+				<Form>ChronControlForm</Form>
+				<DependentOn>TIAgeBas.h</DependentOn>
+				<BuildOrder>58</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIAgeMod.cpp">
+				<DependentOn>TIAgeMod.h</DependentOn>
+				<BuildOrder>24</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIAgeRes.cpp">
+				<Form>AgeModelResultsForm</Form>
+				<DependentOn>TIAgeRes.h</DependentOn>
+				<BuildOrder>52</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIAUAges.cpp">
+				<Form>ImportChronTabsheetForm</Form>
+				<DependentOn>TIAUAges.h</DependentOn>
+				<BuildOrder>116</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TICalib.cpp">
+				<Form>CalibForm</Form>
+				<DependentOn>TICalib.h</DependentOn>
+				<BuildOrder>75</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIChkHir.cpp">
+				<Form>CheckHierarchyForm</Form>
+				<DependentOn>TIChkHir.h</DependentOn>
+				<BuildOrder>118</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIChkVar.cpp">
+				<Form>CheckVarForm</Form>
+				<DependentOn>TIChkVar.h</DependentOn>
+				<BuildOrder>47</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIChkVarFrm.cpp">
+				<Form>CheckListVarForm</Form>
+				<DependentOn>TIChkVarFrm.h</DependentOn>
+				<BuildOrder>67</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIChkVarUnitsFrm.cpp">
+				<Form>CheckVarUnitsForm</Form>
+				<DependentOn>TIChkVarUnitsFrm.h</DependentOn>
+				<BuildOrder>68</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIChkVarUtils.cpp">
+				<DependentOn>TIChkVarUtils.h</DependentOn>
+				<BuildOrder>34</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIChron.cpp">
+				<Form>ChronForm</Form>
+				<DependentOn>TIChron.h</DependentOn>
+				<BuildOrder>49</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TICommon.cpp">
+				<DependentOn>TICommon.h</DependentOn>
+				<BuildOrder>188</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIConc.cpp">
+				<DependentOn>TIConc.h</DependentOn>
+				<BuildOrder>59</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIConcFm.cpp">
+				<Form>ConcForm</Form>
+				<DependentOn>TIConcFm.h</DependentOn>
+				<BuildOrder>60</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIConFrm.cpp">
+				<Form>ConissForm</Form>
+				<DependentOn>TIConFrm.h</DependentOn>
+				<BuildOrder>102</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIConOut.cpp">
+				<Form>CONISSOutput</Form>
+				<DependentOn>TIConOut.h</DependentOn>
+				<BuildOrder>105</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TICONSht.cpp">
+				<Form>NewCONISSSheetForm</Form>
+				<DependentOn>TICONSht.h</DependentOn>
+				<BuildOrder>32</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIContac.cpp">
+				<DependentOn>TIContac.h</DependentOn>
+				<BuildOrder>10</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TICtbFrm.cpp">
+				<Form>SubmissionForm</Form>
+				<DependentOn>TICtbFrm.h</DependentOn>
+				<BuildOrder>26</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIDec.cpp">
+				<Form>SSFormatForm</Form>
+				<DependentOn>TIDec.h</DependentOn>
+				<BuildOrder>106</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIDelEmp.cpp">
+				<Form>DelEmptyRowColForm</Form>
+				<DependentOn>TIDelEmp.h</DependentOn>
+				<BuildOrder>109</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIdmspan.cpp">
+				<DependentOn>TIdmspan.h</DependentOn>
+				<BuildOrder>33</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIEdGrps.cpp">
+				<Form>EditGroupsForm</Form>
+				<DependentOn>TIEdGrps.h</DependentOn>
+				<BuildOrder>31</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIEdTaph.cpp">
+				<Form>EditTaphonomyForm</Form>
+				<DependentOn>TIEdTaph.h</DependentOn>
+				<BuildOrder>112</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIEdTaxa.cpp">
+				<Form>EditTaxaForm</Form>
+				<DependentOn>TIEdTaxa.h</DependentOn>
+				<BuildOrder>100</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIEdtElm.cpp">
+				<Form>EditElementsForm</Form>
+				<DependentOn>TIEdtElm.h</DependentOn>
+				<BuildOrder>53</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIEdtMod.cpp">
+				<Form>EditModifiersForm</Form>
+				<DependentOn>TIEdtMod.h</DependentOn>
+				<BuildOrder>74</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIEdTree.cpp">
+				<Form>EditTreeForm</Form>
+				<DependentOn>TIEdTree.h</DependentOn>
+				<BuildOrder>111</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIElmFrm.cpp">
+				<Form>ElementForm</Form>
+				<DependentOn>TIElmFrm.h</DependentOn>
+				<BuildOrder>28</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIErrFrm.cpp">
+				<Form>ErrorListForm</Form>
+				<DependentOn>TIErrFrm.h</DependentOn>
+				<BuildOrder>27</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIExpChr.cpp">
+				<Form>ChronControlExportForm</Form>
+				<DependentOn>TIExpChr.h</DependentOn>
+				<BuildOrder>114</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIFluxFm.cpp">
+				<Form>InfluxForm</Form>
+				<DependentOn>TIFluxFm.h</DependentOn>
+				<BuildOrder>61</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIFndPub.cpp">
+				<Form>FindPubForm</Form>
+				<DependentOn>TIFndPub.h</DependentOn>
+				<BuildOrder>83</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIFuzzy.cpp">
+				<Form>FuzzyForm</Form>
+				<DependentOn>TIFuzzy.h</DependentOn>
+				<BuildOrder>108</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIGeochr.cpp">
+				<DependentOn>TIGeochr.h</DependentOn>
+				<BuildOrder>23</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIGeocod.cpp">
+				<Form>GoogleGeocodesForm</Form>
+				<DependentOn>TIGeocod.h</DependentOn>
+				<BuildOrder>192</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIGetEPD.cpp">
+				<DependentOn>TIGetEPD.h</DependentOn>
+				<BuildOrder>191</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIGetNtm.cpp">
+				<DependentOn>TIGetNtm.h</DependentOn>
+				<BuildOrder>160</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIGetNtm2.cpp">
+				<DependentOn>TIGetNtm2.h</DependentOn>
+				<BuildOrder>186</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIGlobals.cpp">
+				<DependentOn>TIGlobals.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIGoogle.cpp">
+				<DependentOn>TIGoogle.h</DependentOn>
+				<BuildOrder>163</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIGooMap.cpp">
+				<Form>GoogleMapForm</Form>
+				<DependentOn>TIGooMap.h</DependentOn>
+				<BuildOrder>195</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIImpChr.cpp">
+				<Form>ImportChronForm</Form>
+				<DependentOn>TIImpChr.h</DependentOn>
+				<BuildOrder>113</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIImpDat.cpp">
+				<Form>ImportGeochronForm</Form>
+				<DependentOn>TIImpDat.h</DependentOn>
+				<BuildOrder>115</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIJSON.cpp">
+				<DependentOn>TIJSON.h</DependentOn>
+				<BuildOrder>12</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="Tilia.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="Tilia.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="TILith.cpp">
+				<DependentOn>TILith.h</DependentOn>
+				<BuildOrder>22</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIloi.cpp">
+				<DependentOn>TIloi.h</DependentOn>
+				<BuildOrder>25</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TILookup.cpp">
+				<DependentOn>TILookup.h</DependentOn>
+				<BuildOrder>30</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TILOWESS.cpp">
+				<Form>LOWESSOptionsForm</Form>
+				<DependentOn>TILOWESS.h</DependentOn>
+				<BuildOrder>50</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIMapSit.cpp">
+				<Form>MapSiteForm</Form>
+				<DependentOn>TIMapSit.h</DependentOn>
+				<BuildOrder>35</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIMemo.cpp">
+				<Form>MemoForm</Form>
+				<DependentOn>TIMemo.h</DependentOn>
+				<BuildOrder>44</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIMetDat.cpp">
+				<DependentOn>TIMetDat.h</DependentOn>
+				<BuildOrder>159</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TINeotoma.cpp">
+				<DependentOn>TINeotoma.h</DependentOn>
+				<BuildOrder>21</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TINewAnl.cpp">
+				<Form>NewAnalystForm</Form>
+				<DependentOn>TINewAnl.h</DependentOn>
+				<BuildOrder>41</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TINewCon.cpp">
+				<Form>NewContactForm</Form>
+				<DependentOn>TINewCon.h</DependentOn>
+				<BuildOrder>45</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TINewTxn.cpp">
+				<Form>NewTaxonForm</Form>
+				<DependentOn>TINewTxn.h</DependentOn>
+				<BuildOrder>82</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TINoUnits.cpp">
+				<Form>ConfirmNoUnitsForm</Form>
+				<DependentOn>TINoUnits.h</DependentOn>
+				<BuildOrder>69</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TINtmDat.cpp">
+				<Form>NeotomaDataForm</Form>
+				<DependentOn>TINtmDat.h</DependentOn>
+				<BuildOrder>96</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TINtmLOI.cpp">
+				<Form>DownloadLOIForm</Form>
+				<DependentOn>TINtmLOI.h</DependentOn>
+				<BuildOrder>157</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TINtmSitFrm.cpp">
+				<Form>NeotomaSiteForm</Form>
+				<DependentOn>TINtmSitFrm.h</DependentOn>
+				<BuildOrder>156</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TINwLkUp.cpp">
+				<Form>NewLookupItemForm</Form>
+				<DependentOn>TINwLkUp.h</DependentOn>
+				<BuildOrder>81</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIOpnXLS.cpp">
+				<Form>ImportExcelForm</Form>
+				<DependentOn>TIOpnXLS.h</DependentOn>
+				<BuildOrder>158</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIOption.cpp">
+				<Form>SSOptionsForm</Form>
+				<DependentOn>TIOption.h</DependentOn>
+				<BuildOrder>180</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIPltMod.cpp">
+				<Form>PlotModsForm</Form>
+				<DependentOn>TIPltMod.h</DependentOn>
+				<BuildOrder>107</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIPoly.cpp">
+				<Form>PolynomialOptionsForm</Form>
+				<DependentOn>TIPoly.h</DependentOn>
+				<BuildOrder>51</BuildOrder>
+			</CppCompile>
+			<None Include="TIPub.h">
+				<BuildOrder>11</BuildOrder>
+			</None>
+			<CppCompile Include="TIPubl.cpp">
+				<Form>PubForm</Form>
+				<DependentOn>TIPubl.h</DependentOn>
+				<BuildOrder>146</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIPubLnk.cpp">
+				<Form>PubLinkForm</Form>
+				<DependentOn>TIPubLnk.h</DependentOn>
+				<BuildOrder>46</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIQuery.cpp">
+				<Form>QueryForm</Form>
+				<DependentOn>TIQuery.h</DependentOn>
+				<BuildOrder>86</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIRepos.cpp">
+				<DependentOn>TIRepos.h</DependentOn>
+				<BuildOrder>164</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISeEcGr.cpp">
+				<Form>SelectEcolGroupsForm</Form>
+				<DependentOn>TISeEcGr.h</DependentOn>
+				<BuildOrder>56</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISelSpe.cpp">
+				<Form>SelectSpecimensForm</Form>
+				<DependentOn>TISelSpe.h</DependentOn>
+				<BuildOrder>183</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIShoMem.cpp">
+				<Form>ShowMemoForm</Form>
+				<DependentOn>TIShoMem.h</DependentOn>
+				<BuildOrder>38</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISitHir.cpp">
+				<Form>SiteHierarchyForm</Form>
+				<DependentOn>TISitHir.h</DependentOn>
+				<BuildOrder>110</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISlpAsp.cpp">
+				<DependentOn>TISlpAsp.h</DependentOn>
+				<BuildOrder>63</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIsoDat.cpp">
+				<Form>IsoDatasetMetadataForm</Form>
+				<DependentOn>TIsoDat.h</DependentOn>
+				<BuildOrder>189</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISort.cpp">
+				<DependentOn>TISort.h</DependentOn>
+				<BuildOrder>148</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIsoSer.cpp">
+				<Form>IsotopeSeriesForm</Form>
+				<DependentOn>TIsoSer.h</DependentOn>
+				<BuildOrder>187</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIsotope.cpp">
+				<DependentOn>TIsotope.h</DependentOn>
+				<BuildOrder>182</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISpec.cpp">
+				<Form>SpecimenForm</Form>
+				<DependentOn>TISpec.h</DependentOn>
+				<BuildOrder>181</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISpread.cpp">
+				<Form>TilSpreadSheetForm</Form>
+				<DependentOn>TISpread.h</DependentOn>
+				<BuildOrder>14</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISpread2.cpp">
+				<DependentOn>TISpread2.h</DependentOn>
+				<BuildOrder>97</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISpread3.cpp">
+				<DependentOn>TISpread3.h</DependentOn>
+				<BuildOrder>117</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISpread4.cpp">
+				<DependentOn>TISpread4.h</DependentOn>
+				<BuildOrder>119</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISpread5.cpp">
+				<DependentOn>TISpread5.h</DependentOn>
+				<BuildOrder>184</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISrtFrm.cpp">
+				<Form>SortForm</Form>
+				<DependentOn>TISrtFrm.h</DependentOn>
+				<BuildOrder>147</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISSMeta.cpp">
+				<DependentOn>TISSMeta.h</DependentOn>
+				<BuildOrder>149</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISumPer.cpp">
+				<DependentOn>TISumPer.h</DependentOn>
+				<BuildOrder>150</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISums.cpp">
+				<Form>SumsForm</Form>
+				<DependentOn>TISums.h</DependentOn>
+				<BuildOrder>95</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISynFrm.cpp">
+				<Form>SynonymsForm</Form>
+				<DependentOn>TISynFrm.h</DependentOn>
+				<BuildOrder>89</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TISynonym.cpp">
+				<Form>SynonymForm</Form>
+				<DependentOn>TISynonym.h</DependentOn>
+				<BuildOrder>98</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TITaph.cpp">
+				<DependentOn>TITaph.h</DependentOn>
+				<BuildOrder>151</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TITaxSyn.cpp">
+				<DependentOn>TITaxSyn.h</DependentOn>
+				<BuildOrder>16</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TItlxin.cpp">
+				<DependentOn>TItlxin.h</DependentOn>
+				<BuildOrder>152</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TItlxout.cpp">
+				<DependentOn>TItlxout.h</DependentOn>
+				<BuildOrder>42</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TITphChk.cpp">
+				<Form>ConvertTaphForm</Form>
+				<DependentOn>TITphChk.h</DependentOn>
+				<BuildOrder>79</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TITrain.cpp">
+				<Form>TrainForm</Form>
+				<DependentOn>TITrain.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIUpContact.cpp">
+				<Form>NeotomaContactForm</Form>
+				<DependentOn>TIUpContact.h</DependentOn>
+				<BuildOrder>43</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIUpDepEnv.cpp">
+				<Form>NewDepEnvtForm</Form>
+				<DependentOn>TIUpDepEnv.h</DependentOn>
+				<BuildOrder>155</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIUpLatLong.cpp">
+				<Form>ValidateLatLongForm</Form>
+				<DependentOn>TIUpLatLong.h</DependentOn>
+				<BuildOrder>154</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIUpload.cpp">
+				<Form>NeotomaUploadForm</Form>
+				<DependentOn>TIUpload.h</DependentOn>
+				<BuildOrder>64</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIUpload2.cpp">
+				<DependentOn>TIUpload2.h</DependentOn>
+				<BuildOrder>153</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIUpload3.cpp">
+				<DependentOn>TIUpload3.h</DependentOn>
+				<BuildOrder>185</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIUtils.cpp">
+				<DependentOn>TIUtils.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIVersion.cpp">
+				<DependentOn>TIVersion.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIVrLkUp.cpp">
+				<Form>VarLookupForm</Form>
+				<DependentOn>TIVrLkUp.h</DependentOn>
+				<BuildOrder>99</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIxlsio.cpp">
+				<DependentOn>TIxlsio.h</DependentOn>
+				<BuildOrder>179</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TIXML.cpp">
+				<DependentOn>TIXML.h</DependentOn>
+				<BuildOrder>15</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNAnlUnt.cpp">
+				<Form>AnalUnitMatchForm</Form>
+				<DependentOn>TNAnlUnt.h</DependentOn>
+				<BuildOrder>194</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNColUnt.cpp">
+				<Form>NeotomaCollUnitForm</Form>
+				<DependentOn>TNColUnt.h</DependentOn>
+				<BuildOrder>193</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNConDst.cpp">
+				<Form>NeotomaContactDatasetsForm</Form>
+				<DependentOn>TNConDst.h</DependentOn>
+				<BuildOrder>92</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNConfElm.cpp">
+				<Form>ConfirmElementUploadForm</Form>
+				<DependentOn>TNConfElm.h</DependentOn>
+				<BuildOrder>72</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNConfTaxNamChng.cpp">
+				<Form>ConfirmReplaceTaxonForm</Form>
+				<DependentOn>TNConfTaxNamChng.h</DependentOn>
+				<BuildOrder>88</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNDatTyp.cpp">
+				<Form>ReassignDatasetTypeForm</Form>
+				<DependentOn>TNDatTyp.h</DependentOn>
+				<BuildOrder>73</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNFindTaxon.cpp">
+				<Form>FindTaxonForm</Form>
+				<DependentOn>TNFindTaxon.h</DependentOn>
+				<BuildOrder>48</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNLogin.cpp">
+				<Form>NeotomaLoginForm</Form>
+				<DependentOn>TNLogin.h</DependentOn>
+				<BuildOrder>54</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNLookup.cpp">
+				<Form>NeotomaWriteLookupForm</Form>
+				<DependentOn>TNLookup.h</DependentOn>
+				<BuildOrder>80</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNNewEcGr.cpp">
+				<Form>NewEcolGroupForm</Form>
+				<DependentOn>TNNewEcGr.h</DependentOn>
+				<BuildOrder>84</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNNewElm.cpp">
+				<Form>NewElementsForm</Form>
+				<DependentOn>TNNewElm.h</DependentOn>
+				<BuildOrder>71</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNNewSyn.cpp">
+				<Form>NewSynTypeForm</Form>
+				<DependentOn>TNNewSyn.h</DependentOn>
+				<BuildOrder>85</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNNewTaxGrp.cpp">
+				<Form>NewTaxaGroupForm</Form>
+				<DependentOn>TNNewTaxGrp.h</DependentOn>
+				<BuildOrder>55</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNSelItm.cpp">
+				<Form>SelectItemForm</Form>
+				<DependentOn>TNSelItm.h</DependentOn>
+				<BuildOrder>87</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNSSAge.cpp">
+				<Form>SurfaceSampleAgeForm</Form>
+				<DependentOn>TNSSAge.h</DependentOn>
+				<BuildOrder>166</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNSubmit.cpp">
+				<Form>SubmitForm</Form>
+				<DependentOn>TNSubmit.h</DependentOn>
+				<BuildOrder>65</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNSynInfo.cpp">
+				<Form>SynonymInfoForm</Form>
+				<DependentOn>TNSynInfo.h</DependentOn>
+				<BuildOrder>90</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNTaxa.cpp">
+				<Form>NeotomaTaxaLookupForm</Form>
+				<DependentOn>TNTaxa.h</DependentOn>
+				<BuildOrder>77</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNtmPubs.cpp">
+				<Form>NeotomaContactPubForm</Form>
+				<DependentOn>TNtmPubs.h</DependentOn>
+				<BuildOrder>91</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNUpdNtm.cpp">
+				<DependentOn>TNUpdNtm.h</DependentOn>
+				<BuildOrder>167</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNUpdSit.cpp">
+				<Form>UpdateNeotomaSiteForm</Form>
+				<DependentOn>TNUpdSit.h</DependentOn>
+				<BuildOrder>76</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNUpIso.cpp">
+				<DependentOn>TNUpIso.h</DependentOn>
+				<BuildOrder>194</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNUtils.cpp">
+				<DependentOn>TNUtils.h</DependentOn>
+				<BuildOrder>70</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNValid.cpp">
+				<DependentOn>TNValid.h</DependentOn>
+				<BuildOrder>168</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNValid2.cpp">
+				<DependentOn>TNValid2.h</DependentOn>
+				<BuildOrder>169</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNValid3.cpp">
+				<DependentOn>TNValid3.h</DependentOn>
+				<BuildOrder>170</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNValIso.cpp">
+				<DependentOn>TNValIso.h</DependentOn>
+				<BuildOrder>193</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNValSpc.cpp">
+				<DependentOn>TNValSpc.h</DependentOn>
+				<BuildOrder>190</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TNVarMods.cpp">
+				<Form>NeotomaVarModsLookupForm</Form>
+				<DependentOn>TNVarMods.h</DependentOn>
+				<BuildOrder>78</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="TUpUtils.cpp">
+				<DependentOn>TUpUtils.h</DependentOn>
+				<BuildOrder>66</BuildOrder>
+			</CppCompile>
+			<FormResources Include="TISitHir.dfm"/>
+			<FormResources Include="TIShoMem.dfm"/>
+			<FormResources Include="TISelSpe.dfm"/>
+			<FormResources Include="TIsoDat.dfm"/>
+			<FormResources Include="TIPubLnk.dfm"/>
+			<FormResources Include="TIPubl.dfm"/>
+			<FormResources Include="TISeEcGr.dfm"/>
+			<FormResources Include="TIQuery.dfm"/>
+			<FormResources Include="TISrtFrm.dfm"/>
+			<FormResources Include="TISums.dfm"/>
+			<FormResources Include="TISpec.dfm"/>
+			<FormResources Include="TIsoSer.dfm"/>
+			<FormResources Include="TISpread.dfm"/>
+			<FormResources Include="TIPoly.dfm"/>
+			<FormResources Include="TILOWESS.dfm"/>
+			<FormResources Include="TIMemo.dfm"/>
+			<FormResources Include="TIMapSit.dfm"/>
+			<FormResources Include="TIImpDat.dfm"/>
+			<FormResources Include="TIImpChr.dfm"/>
+			<FormResources Include="TINwLkUp.dfm"/>
+			<FormResources Include="TINtmSitFrm.dfm"/>
+			<FormResources Include="TINtmLOI.dfm"/>
+			<FormResources Include="TIPltMod.dfm"/>
+			<FormResources Include="TIOption.dfm"/>
+			<FormResources Include="TIOpnXLS.dfm"/>
+			<FormResources Include="TINewCon.dfm"/>
+			<FormResources Include="TINewAnl.dfm"/>
+			<FormResources Include="TINtmDat.dfm"/>
+			<FormResources Include="TINoUnits.dfm"/>
+			<FormResources Include="TINewTxn.dfm"/>
+			<FormResources Include="TNSSAge.dfm"/>
+			<FormResources Include="TNSelItm.dfm"/>
+			<FormResources Include="TNNewTaxGrp.dfm"/>
+			<FormResources Include="TNTaxa.dfm"/>
+			<FormResources Include="TNSynInfo.dfm"/>
+			<FormResources Include="TNSubmit.dfm"/>
+			<FormResources Include="TNLookup.dfm"/>
+			<FormResources Include="TNLogin.dfm"/>
+			<FormResources Include="TNFindTaxon.dfm"/>
+			<FormResources Include="TNNewSyn.dfm"/>
+			<FormResources Include="TNNewElm.dfm"/>
+			<FormResources Include="TNNewEcGr.dfm"/>
+			<FormResources Include="TNVarMods.dfm"/>
+			<FormResources Include="TNUpdSit.dfm"/>
+			<FormResources Include="TNtmPubs.dfm"/>
+			<FormResources Include="TNDatTyp.dfm"/>
+			<FormResources Include="TIUpContact.dfm"/>
+			<FormResources Include="TITrain.dfm"/>
+			<FormResources Include="TITphChk.dfm"/>
+			<FormResources Include="TIUpload.dfm"/>
+			<FormResources Include="TIUpLatLong.dfm"/>
+			<FormResources Include="TIUpDepEnv.dfm"/>
+			<FormResources Include="TISynonym.dfm"/>
+			<FormResources Include="TISynFrm.dfm"/>
+			<FormResources Include="TNColUnt.dfm"/>
+			<FormResources Include="TNAnlUnt.dfm"/>
+			<FormResources Include="TNConfTaxNamChng.dfm"/>
+			<FormResources Include="TNConfElm.dfm"/>
+			<FormResources Include="TNConDst.dfm"/>
+			<FormResources Include="TIVrLkUp.dfm"/>
+			<FormResources Include="TGPrint.dfm"/>
+			<FormResources Include="TGSelVar.dfm"/>
+			<FormResources Include="TGReg.dfm"/>
+			<FormResources Include="TGRare.dfm"/>
+			<FormResources Include="TGOrder.dfm"/>
+			<FormResources Include="TGNewTxt.dfm"/>
+			<FormResources Include="TGPatt.dfm"/>
+			<FormResources Include="TGParent.dfm"/>
+			<FormResources Include="TGTxtFrm.dfm"/>
+			<FormResources Include="TGYaxFrm.dfm"/>
+			<FormResources Include="TGXaxFrm.dfm"/>
+			<FormResources Include="TGStyle.dfm"/>
+			<FormResources Include="TGSplash.dfm"/>
+			<FormResources Include="TGLthFrm.dfm"/>
+			<FormResources Include="TGColors.dfm"/>
+			<FormResources Include="TGAbout.dfm"/>
+			<FormResources Include="TGDiagrm.dfm"/>
+			<FormResources Include="TGDgrFrm.dfm"/>
+			<FormResources Include="TGDatFrm.dfm"/>
+			<FormResources Include="TGGrpOpt.dfm"/>
+			<FormResources Include="TGGrpFrm.dfm"/>
+			<FormResources Include="TGLinWid.dfm"/>
+			<FormResources Include="TGItalic.dfm"/>
+			<FormResources Include="TGFntDlg.dfm"/>
+			<FormResources Include="TGGreek.dfm"/>
+			<FormResources Include="TGFrame.dfm"/>
+			<FormResources Include="TIEdtMod.dfm"/>
+			<FormResources Include="TIEdtElm.dfm"/>
+			<FormResources Include="TIEdTaxa.dfm"/>
+			<FormResources Include="TIErrFrm.dfm"/>
+			<FormResources Include="TIElmFrm.dfm"/>
+			<FormResources Include="TIEdTree.dfm"/>
+			<FormResources Include="TIDelEmp.dfm"/>
+			<FormResources Include="TIDec.dfm"/>
+			<FormResources Include="TICtbFrm.dfm"/>
+			<FormResources Include="TIEdTaph.dfm"/>
+			<FormResources Include="TIEdGrps.dfm"/>
+			<FormResources Include="TIGooMap.dfm"/>
+			<FormResources Include="TIFndPub.dfm"/>
+			<FormResources Include="TIFluxFm.dfm"/>
+			<FormResources Include="TIExpChr.dfm"/>
+			<FormResources Include="TIGeocod.dfm"/>
+			<FormResources Include="TIFuzzy.dfm"/>
+			<FormResources Include="TIAgeBas.dfm"/>
+			<FormResources Include="TIAdmUnt.dfm"/>
+			<FormResources Include="TICalib.dfm"/>
+			<FormResources Include="TIAUAges.dfm"/>
+			<FormResources Include="TIAgeRes.dfm"/>
+			<FormResources Include="TGZoneOp.dfm"/>
+			<FormResources Include="TGZoneLi.dfm"/>
+			<FormResources Include="TIAddRep.dfm"/>
+			<FormResources Include="TIAddCal.dfm"/>
+			<FormResources Include="TGZoneSc.dfm"/>
+			<FormResources Include="TIConcFm.dfm"/>
+			<FormResources Include="TICONSht.dfm"/>
+			<FormResources Include="TIConOut.dfm"/>
+			<FormResources Include="TIConFrm.dfm"/>
+			<FormResources Include="TIChkVarFrm.dfm"/>
+			<FormResources Include="TIChkVar.dfm"/>
+			<FormResources Include="TIChkHir.dfm"/>
+			<FormResources Include="TIChron.dfm"/>
+			<FormResources Include="TIChkVarUnitsFrm.dfm"/>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')" Project="$(BDS)\Bin\CodeGear.Cpp.Targets"/>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+		<ProjectExtensions>
+			<Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+			<Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+			<BorlandProject>
+				<CPlusPlusBuilder.Personality>
+					<Source>
+						<Source Name="MainSource">Tilia.cpp</Source>
+					</Source>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">2</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">62</VersionInfo>
+						<VersionInfo Name="Build">90</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1033</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">TiliaIT.com</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">Tilia</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">2.0.62.90</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright">Eric C. Grimm 1991-2018</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename">Tilia.exe</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">Tilia</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">2.0.62</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="C:\Users\Eric\Documents\tmssoftware\TMS VCL WebGMaps\bpl\TMSWebGMapsPkgD2011.bpl">TMS WebGMaps</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\bcboffice2k150.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\bcbofficexp150.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\ipworks9.bpl">/n software inc. - IP*Works! V9 - www.nsoftware.com</Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files (x86)\DevExpressVCL\Library\RS15\dcldxPSdxSpreadSheetLnkRS15.bpl">ExpressPrinting System ReportLink for ExpressSpreadSheet by Developer Express Inc.</Excluded_Packages>
+						<Excluded_Packages Name="C:\Users\Eric\Documents\tmssoftware\TMS VCL WebGMaps\BuilderXE\TMSWebGMapsPkgDED2011.bpl">(untitled)</Excluded_Packages>
+					</Excluded_Packages>
+					<ProjectProperties>
+						<ProjectProperties Name="AutoShowDeps">False</ProjectProperties>
+						<ProjectProperties Name="ManagePaths">True</ProjectProperties>
+						<ProjectProperties Name="VerifyPackages">True</ProjectProperties>
+					</ProjectProperties>
+				</CPlusPlusBuilder.Personality>
+				<Platforms>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

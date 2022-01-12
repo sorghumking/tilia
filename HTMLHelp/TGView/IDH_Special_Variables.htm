@@ -1,0 +1,83 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<!--(==============================================================)-->
+<!--(Document created with RoboEditor. )============================-->
+<!--(==============================================================)-->
+
+<head>
+
+<title>Special Variables</title>
+
+<!--(Meta)==========================================================-->
+
+<meta http-equiv=content-type content="text/html; charset=windows-1252">
+<meta name=generator content="RoboHELP by eHelp Corporation - www.ehelp.com">
+<meta name=generator-major-version content=0.1>
+<meta name=generator-minor-version content=1>
+<meta name=filetype content=kadov>
+<meta name=filetype-version content=1>
+<meta name=page-count content=1>
+<meta name=layout-height content=404>
+<meta name=layout-width content=658>
+
+
+<!--(Links)=========================================================-->
+
+<link rel="StyleSheet" href="..\TGView.css">
+
+
+
+</head>
+
+<!--(Body)==========================================================-->
+
+
+<body>
+
+<h1>Special Variables</h1>
+
+<p>Tilia recognizes some special variables that have reserved VarCodes. 
+ The special status of these variables is denoted by their VarCodes; their 
+ VarNames for can be anything. These variables are not listed in the <a 
+ href="IDH_Variables_Dialog_Box.htm">Variables Dialog Box</a>.</p>
+
+<ol style="list-style: decimal;"
+	type=1>
+	
+	<li style="margin-left: -20px;"
+		class=kadov-p><p style="margin-top: 10pt;"><span style="font-weight: bold;">Chronology 
+ </span>variables, which have the VarCode <span style="font-weight: bold;">ChronX</span>, 
+ where <span style="font-weight: bold;">X</span> is a number (e.g. Chron1), 
+ contain the age for each sample. Multiple chron variables can exist for 
+ different chronologies, e.g. Chron1 in radiocarbon years and Chron2 in 
+ calibrated years. These variables are listed in the <a href="IDH_Yaxis_Dialog_Box.htm">Y-axes 
+ Dialog Box</a>, where Y-axes and scales are designated.</p></li>
+	
+	<li style="margin-left: -20px;"
+		class=kadov-p><p style="margin-top: 10pt;"><span style="font-weight: bold;">Depth</span> 
+ variables, which have the VarCode <span style="font-weight: bold;">DepthX</span>, 
+ where <span style="font-weight: bold;">X</span> is a number (e.g. Depth1), 
+ contain the depth for each sample. Multiple depth variables can exist 
+ for different depth reference points, e.g.Depth1 could be depth from water 
+ surface and Depth2 could be depth from sediment surface. Normally, the 
+ sample numbers are depths, and a depth variable is not necessary. However, 
+ a depth variable is necessary if multiple possibilities exist for depths. 
+ These variables are listed in the <a href="IDH_Yaxis_Dialog_Box.htm">Y-axes 
+ Dialog Box</a>, where Y-axes and scales are designated.</p></li>
+	
+	<li style="margin-left: -20px;"
+		class=kadov-p><p style="margin-top: 10pt;"><span style="font-weight: bold;">Thickness</span> 
+ variables have the Varcode <span style="font-weight: bold;">Thick</span> 
+ or <span style="font-weight: bold;">ThickX</span>, where <span style="font-weight: bold;">X</span> 
+ is a number (e.g. Thick1). The number is not needed for a thickness variable 
+ and is ignored if provided. Only one thickness variable is possible. The 
+ thickness variable contains the thickness of each sample in the units 
+ of depth measurement (e.g. cm). Thickness variables can be used for bar 
+ thicknesses in <a href="IDH_Histogram.htm">Histogram Style</a> graphs.</p></li>
+</ol>
+
+</body>
+
+</html>
