@@ -4,3 +4,6 @@ Debug/
 Release/
 Release_*/
 Setups/
+
+*.dsk
+*.~dsk
