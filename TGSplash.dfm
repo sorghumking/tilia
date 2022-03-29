@@ -13333,7 +13333,7 @@ object SplashForm: TSplashForm
     Top = 88
     Width = 135
     Height = 15
-    Caption = 'Copyright 1991-2020'
+    Caption = 'Copyright 1991-2022'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = 25600
     Font.Height = -13

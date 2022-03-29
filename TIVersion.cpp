@@ -102,6 +102,7 @@ TILIALICENSE::TILIALICENSE()
    GUIDS.push_back(VERSIONGUID("Tilia 2.8.1",  "0940F7D7-796E-438A-AC04-8308BE37A6E8"));
    GUIDS.push_back(VERSIONGUID("Tilia 2.9.1",  "8EC094A4-6206-4300-B72B-7A14D64DB673"));
    GUIDS.push_back(VERSIONGUID("Tilia 3.0.1",  "86732A40-514B-4E86-A0EB-881F6FD5AEC0"));
+   //GUIDS.push_back(VERSIONGUID("Tilia 3.0.2",  "7DE99FB9-EFE8-4A54-9964-EE448072AEDE"));
 }
 //---------------------------------------------------------------------------
 
