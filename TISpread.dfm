@@ -23,7 +23,7 @@ object TilSpreadSheetForm: TTilSpreadSheetForm
     Top = 0
     Width = 912
     Height = 448
-    ActivePage = TabSheet1
+    ActivePage = TabSheet2
     Align = alClient
     HotTrack = True
     TabOrder = 0
@@ -2483,7 +2483,7 @@ object TilSpreadSheetForm: TTilSpreadSheetForm
         Width = 904
         Height = 420
         Margins.Bottom = 0
-        ActivePage = TabSheetAgeModels
+        ActivePage = TabSheetSite
         Align = alClient
         HotTrack = True
         MultiLine = True
@@ -2507,6 +2507,8 @@ object TilSpreadSheetForm: TTilSpreadSheetForm
             ParentColor = False
             ParentFont = False
             TabOrder = 1
+            ExplicitLeft = 20
+            ExplicitTop = 18
             object Label1: TLabel
               Left = 284
               Top = 264
@@ -2770,6 +2772,7 @@ object TilSpreadSheetForm: TTilSpreadSheetForm
                   Top = 0
                   Width = 28
                   Height = 28
+                  Enabled = False
                   LookAndFeel.Kind = lfOffice11
                   LookAndFeel.NativeStyle = True
                   OptionsImage.Glyph.Data = {
@@ -3703,6 +3706,7 @@ object TilSpreadSheetForm: TTilSpreadSheetForm
               Width = 28
               Height = 28
               Hint = 'Get political units from Google gecoding'
+              Enabled = False
               LookAndFeel.Kind = lfOffice11
               LookAndFeel.NativeStyle = True
               OptionsImage.Glyph.Data = {
@@ -13533,8 +13537,8 @@ object TilSpreadSheetForm: TTilSpreadSheetForm
     OnCharacters = ipwXMLp5Characters
     OnEndElement = ipwXMLp5EndElement
     OnStartElement = ipwXMLp5StartElement
-    Left = 560
-    Top = 96
+    Left = 504
+    Top = 80
   end
   object PopupMenu8: TPopupMenu
     OnPopup = PopupMenu8Popup
@@ -15829,7 +15833,7 @@ object TilSpreadSheetForm: TTilSpreadSheetForm
     Width = 48
     Left = 768
     Bitmap = {
-      494C010103000400F40A30000900FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010103000400F80A30000900FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000C0000000090000000100200000000000001B
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -16562,7 +16566,7 @@ object TilSpreadSheetForm: TTilSpreadSheetForm
     Left = 736
     Top = 88
     Bitmap = {
-      494C010102000800A80809000900FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010102000800AC0809000900FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000240000000900000001002000000000001005
       0000000000000000000000000000000000000000000000000000000000000000
       00000000000000000000000000000000000000000000000000000908B7000000
@@ -16615,7 +16619,7 @@ object TilSpreadSheetForm: TTilSpreadSheetForm
     Left = 776
     Top = 80
     Bitmap = {
-      494C010102000800A80710001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010102000800AC0710001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000001000000001002000000000000010
       0000000000000000000000000000000000000000000000000000C6C6C6007E7E
       7E007E7E7E007E7E7E007E7E7E007777770072727200737373006F6F6F006A6A

@@ -114,7 +114,7 @@ __fastcall TNeotomaDataForm::TNeotomaDataForm(TComponent* Owner)
 	: TForm(Owner)
 {
    Launched = false;
-   UseGoogleMaps = tiGlobals->UseGoogleMaps;
+   UseGoogleMaps = false;//tiGlobals->UseGoogleMaps;
    Height = tiGlobals->GoogleMapHeight;
    Width = tiGlobals->GoogleMapWidth;
 
